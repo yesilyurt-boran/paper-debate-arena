@@ -1,0 +1,344 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-01T13:15:01.114524",
+  "papers": {
+    "paper_a": "paper_a",
+    "paper_b": "paper_b"
+  },
+  "nodes": [
+    {
+      "id": "paper_a",
+      "type": "paper"
+    },
+    {
+      "id": "paper_b",
+      "type": "paper"
+    },
+    {
+      "id": "paper_a_conflict_2_desi_collaboration_findings",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "DESI collaboration findings",
+      "text": [
+        "The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2. However, the accompanyingH 0 tension is not reported. In Fig.1, we find that Pantheon+, Union3 and DESY5 exhibitH 0 tensions with CMB [1] at 5.31\u03c3, 1.69\u03c3and 3.03\u03c3levels, respectively. Although three SN samples are well cali- brated, they suffer from internal inconsistencies in their preferredH 0 values. For instance, Pantheon+ is in a 3.86\u03c3tension with DESY5. The main goal of DESI is exploring the nature of DE including its possible dynam- ics. Based on the new motivation that DDE could help resolve the \u2126 m tension in \u039bCDM, we implement con- straints on the CPL DDE and find that CMB prefers a smaller \u2126m, while DESI DR2 and SN prefer larger matter fractions.",
+        "All these discrepan- cies demonstrate that the DDE evidences from combined constraints are problematic. Furthermore, we give more complete constraints on (\u03c90, \u03c9 a) using a wider prior than that the Planck and DESI collaborations used [1, 30, 31]. We find that CMB is in a\u223c2\u03c3tension with DESI DR2 and three SN sam- ples are basically inconsistent with CMB at\u223c1\u03c3level. Since DESI DR2 with a clear different degeneracy direc- tion of (\u03c9 0, \u03c9 a) from SN has a\u223c1\u03c3tension with SN, the DDE evidences from DESI DR2 plus CMB or SN are problematic. Additionally, even for the SN-only case, there is also an inconsistency among SN samples, i.e., Pantheon+ is consistent with \u039bCDM within 1\u03c3level, while Union3 and DESY5 exhibit beyond 1\u03c3tensions TABLE I: Mean values and 1\u03c3(68%) uncertainties of free parameters from different datasets in the CPL model.",
+        "Es- pecially, DESY5 gives a\u223c2\u03c3tension with CMB. Even worse, the addition of DESI DR2 to SN leads to beyond 2\u03c3tensions with CMB, particularly, DESY5 plus DESI DR2 gives a beyond 3\u03c3tension with CMB. These ten- sions can also be captured inr d values. Adding DESI DR2 to Pantheon+, Union3 and DESY5 leads to a 5.30\u03c3, 2.86\u03c3and 4.26\u03c3tension with CMB when estimatingr d, respectively. Notice that there is a beyond 2\u03c3tension be- tween Pantheon+ plus DESI DR2 and DESY5 plus DESI DR2. This suggests a clear discrepancy among SN sam- ples. Interestingly, CMB plus DESI DR2 is in beyond 3\u03c3, beyond 2\u03c3and\u223c1.5\u03c3tensions with Pantheon+, DESY5 and Union3, respectively."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_2_desi_collaboration_findings",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "DESI collaboration findings",
+      "text": [
+        "In particular, quintessence-based interpretations of evolving dark energy in light of DESI DR2 have been widely explored, with scalar-\ufb01eld dynamics [ 65\u201373]. In addition, modi\ufb01ed theories of gravity have been investigated using the DESI measurements [ 74,75], while potential tensions between DESI DR2 and CMB observations have also been examined [ 76]. The role of topological effects in shaping the behavior of dynamical dark energy has likewise been explored [ 77]. In a related direction, several studies have also investigated the impact of\u2211 m\u03bd in the context of DESI DR1/DR2 using extended twelve-parameter dynamical dark energy models and late-time dark energy scenarios. [78\u201381].",
+        "This behavior is not new, as similar trends have been observed in previous studies. [110] (see Table 1 and Fig. 5) report the LRG1 discrepancy using the DESI DR1 com- pilation, and note that in DESI DR1 the LRG2 point also exhibits a signi\ufb01cant discrepancy. Similar discrepancies are found in [111] using SDSS-IV data (see Table 3 and Fig. 5). More recently, using DESI DR2, [39,51] show that the LRG1 eff = 0.510) discrepancy persists, and that a comparable tension is also present for LRG3+ELG1 (zeff = 0.934). Indeed, recent work by [ 112] has explicitly investigated the role of individual DESI tracers in driving the prefer- ence for dynamical dark energy.",
+        "[78\u201381]. Indeed, these developments have also raised questions about the status of the H0 tension in light of DESI measurements, which suggest evidence for dynamical dark energy and may point toward the need for new physics to resolve this discrep- ancy [82\u201385] Motivated by the above studies, in this paper we explore several dark energy models beyond the CPL parametrization, focusing exclusively on late-time datasets. In particular, we compare phenomenological constraints on the dark energy equation of state w derived with and without DESI LRG1 data. We further extend this analysis by incorporating dif- ferent SNe Ia samples together with DESI DR2 and com- pressed CMB likelihoods. This approach allows us to assess the statistical signi\ufb01cance of dynamical dark energy features and to isolate the role of late-time observations in driving the inferred evolution. Our paper is organized as follows. In Sect. 2, we introduce the cosmological background equa- tions and models."
+      ],
+      "sections": [
+        "body",
+        "conclusion",
+        "body"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_2_desi_collaboration_findings",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_2_desi_collaboration_findings",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a_conflict_2_desi_collaboration_findings",
+      "target": "paper_b_conflict_2_desi_collaboration_findings",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A discusses significant tensions between DESI DR2 and other datasets like CMB and SN, while Paper B acknowledges these tensions but suggests that they could point towards new physics such as dynamical dark energy, beyond current models.",
+      "type_reasoning": "The conflict arises from the interpretation of the empirical findings: Paper A focuses on inconsistencies and tensions as problematic, while Paper B views them as potential indicators of new physics, suggesting divergent empirical interpretations.",
+      "interrogations": [
+        {
+          "tool": "ANSWER_FOR",
+          "concept": "DESI collaboration findings",
+          "responding paper": "paper_b",
+          "questioned paper": "paper_a",
+          "response": {
+            "Answer": "Paper B argues that while the DESI DR2 data alone might present inconsistencies, the combination of DESI DR2, CMB, and various Type Ia supernova compilations offers more robust constraints that challenge the inconsistencies outlined by Paper A. The incorporation of different datasets, as outlined in the MCMC analysis, strengthens the evidence for a time-evolving dark energy model, disputing the assertion that such findings result from coincidental statistical aberrations. Furthermore, Paper B emphasizes that the combination of DESI DR2 with other datasets does not support the claim of mere coincidental alignment, instead indicating significant exclusions of the \u039bCDM model with statistical significance up to 4.2\u03c3."
+          },
+          "Claim of the Questioned": "Paper A methodically demonstrates that significant tensions exist between the DESI DR2 dataset and other observational datasets like CMB and SN, casting doubt on the robustness of claims supporting Dynamical Dark Energy (DDE). By presenting detailed statistical evidence, such as the variability in \u2126m and H0 tensions across datasets, Paper A effectively reveals the inconsistencies that arise when incompatible data are combined under the CPL model. This analysis highlights that while reported values might superficially align with CMB's constraints on \u039bCDM, they potentially reflect coincidental statistical aberrations rather than genuine DDE evidence.",
+          "sources": [
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "[78\u201381]. Indeed, these developments have also raised questions about the status of the H0 tension in light of DESI measurements, which suggest evidence for dynamical dark energy and may point toward the need for new physics to resolve this discrep- ancy [82\u201385] Motivated by the above studies, in this paper we explore several dark energy models beyond the CPL parametrization, focusing exclusively on late-time datasets. In particular, we compare phenomenological constraints on the dark energy equation of state w derived with and without DESI LRG1 data. We further extend this analysis by incorporating dif- ferent SNe Ia samples together with DESI DR2 and com- pressed CMB likelihoods. This approach allows us to assess the statistical signi\ufb01cance of dynamical dark energy features and to isolate the role of late-time observations in driving the inferred evolution. Our paper is organized as follows. In Sect. 2, we introduce the cosmological background equa- tions and models.",
+              "score": 0.9039409742828858
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "In particular, quintessence-based interpretations of evolving dark energy in light of DESI DR2 have been widely explored, with scalar-\ufb01eld dynamics [ 65\u201373]. In addition, modi\ufb01ed theories of gravity have been investigated using the DESI measurements [ 74,75], while potential tensions between DESI DR2 and CMB observations have also been examined [ 76]. The role of topological effects in shaping the behavior of dynamical dark energy has likewise been explored [ 77]. In a related direction, several studies have also investigated the impact of\u2211 m\u03bd in the context of DESI DR1/DR2 using extended twelve-parameter dynamical dark energy models and late-time dark energy scenarios. [78\u201381].",
+              "score": 0.8959324426528175
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Recently, the DES Collaboration reported improved cosmo- logical constraints from a re-analysis of the DES-SN5YR catalog, showing that the preference for dynamical dark energy is reduced to a statistical signi\ufb01cance of 3 .2\u03c3, com- pared to the earlier 4 .2\u03c3 result obtained with DES-SN5YR [21]. Yet several studies have also shown that, in the DES- SN5YR dataset, the evidence for dynamical dark energy is biased by low-redshift SNe Ia [ 22\u201325]. Compared to DR1, DR2 offers tighter constraints with improved precision and reduced uncertainties. Following the DR2 BAO release, [8,9] performed an extended analysis of dark energy dynamics and con\ufb01rmed evidence of a time-varying EoS. Evidence for a time-evolving dark energy model with a statistical signi\ufb01- cance exceeding 5\u03c3 has also been reported [26].",
+              "score": 0.8935455832356278
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 6,
+              "text": "As a result, the apparent anomaly in /Omega1 m may re\ufb02ect statistical artifacts rather than genuine physical constraints. Motivated by this, we go beyond the DESI BAO-only analysis in the following sections by incor- porating different Type Ia supernova samples and a CMB compressed likelihood. 4.2 Evidence for evolving dark energy using DESI DR2 BAO with other datasets In the previous section, we constrained each DE model using only the DESI DR2 dataset. We found that, across all models, the posterior distributions in the w 0\u2013wa plane indicate that wa remains poorly constrained when relying solely on DESI DR2 data. To improve these constraints and break param- eter degeneracies, we now incorporate additional datasets, combining DESI DR2 with various Type Ia supernova com- pilations and CMB measurements. Table 4 presents the numerical values obtained for each cosmological model using MCMC analysis.",
+              "score": 0.8886084388653243
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 6,
+              "text": "Simi- lar behavior has been reported in [ 39,138], where the CPL model also favors w0 > \u22121, leading to a reduced H0 when DESI DR2 is combined with CMB and SNe Ia data. Now we turn to the main observation of this paper. In Fig. 5, we present the relevant parameter planes. Specif- ically, Fig. 5as h o w st h e/Omega1m \u2212 w0 plane for the wCDM  564 Page 8 of 21 Eur. Phys. J. C (2026) 86:564  model. Our results, based on the combination of DESI DR2 and CMB data, are consistent with the \ufb01ndings of [ 7]( w = \u22121.005\u00b10.036).",
+              "score": 0.8884722307444172
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "This behavior agrees with results from Union3 and supports a trend toward mildly dynamical dark energy. In the same year, DESI released its \ufb01rst year BAO data [ 5]; When combined with CMB, Pantheon +, Union3, and DES- SN5YR, these measurements yield(w0,w a) constraints that depart from/Lambda1CDM at the levels 2.6\u03c3,2 .5\u03c3,3 .5\u03c3, and 3.9\u03c3, respectively. DESI DR2 BAO measurements [7], when com- bined with data from CMB only, exclude /Lambda1CDM with a signi\ufb01cance of 3 .1\u03c3. Including additional supernova data sets Pantheon +, Union3, and DES SN5YR yields exclu- sion signi\ufb01cances of 2 .8\u03c3,3 .8\u03c3, and 4 .2\u03c3, respectively.",
+              "score": 0.8880687462520385
+            }
+          ],
+          "timestamp": "2026-06-01T12:55:59.892285"
+        },
+        {
+          "tool": "STEELMAN",
+          "concept": "DESI collaboration findings",
+          "steelmaned_paper": "paper_a",
+          "response": {
+            "Argument": "Paper A meticulously outlines significant discrepancies between the DESI DR2 and other datasets like CMB and SN, indicating that such tensions question the robustness of Dynamical Dark Energy (DDE) as a solution. The analysis reveals that while the combined constraints of these datasets may yield results momentarily aligning with CMB's \u039bCDM predictions, these are merely coincidental given the observed substantial differences in the matter fraction and H0 from individual dataset analyses, emphasizing the problematic nature of merging incompatible datasets. Furthermore, the discrepancy among SN samples alone, as indicated by the beyond 1\u03c3 tensions and inconsistencies, underscores the need for caution in drawing conclusions about new physics or dynamical models from these datasets."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2. However, the accompanyingH 0 tension is not reported. In Fig.1, we find that Pantheon+, Union3 and DESY5 exhibitH 0 tensions with CMB [1] at 5.31\u03c3, 1.69\u03c3and 3.03\u03c3levels, respectively. Although three SN samples are well cali- brated, they suffer from internal inconsistencies in their preferredH 0 values. For instance, Pantheon+ is in a 3.86\u03c3tension with DESY5. The main goal of DESI is exploring the nature of DE including its possible dynam- ics. Based on the new motivation that DDE could help resolve the \u2126 m tension in \u039bCDM, we implement con- straints on the CPL DDE and find that CMB prefers a smaller \u2126m, while DESI DR2 and SN prefer larger matter fractions.",
+              "score": 0.9505172452171051
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Interestingly, \u2126 m tensions between DESI DR2 and CMB, Pantheon+, Union3, and DESY5 are well al- leviated from 1.57\u03c3, 1.83\u03c3, 2.10\u03c3and 2.81\u03c3to 0.14\u03c3, 0.21\u03c3, 0.49\u03c3and 0.94\u03c3, respectively. It seems that DDE solves the \u2126 m discrepancies, however, the price is DESI DR2 and SN give larger \u2126 m (e.g.\u223c0.5) in CPL than in \u039bCDM, while theH 0 tension between Pantheon+ and DESY5 increases from 3.86\u03c3to 4.29\u03c3(see Tab.I). There- fore, the well-known fact that the late universe is dom- inated by DE is largely challenged in CPL. Note that CMB cannot constrainH 0 in CPL, due to the weak con- straint on the DE EoS.",
+              "score": 0.9260880378817348
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Es- pecially, DESY5 gives a\u223c2\u03c3tension with CMB. Even worse, the addition of DESI DR2 to SN leads to beyond 2\u03c3tensions with CMB, particularly, DESY5 plus DESI DR2 gives a beyond 3\u03c3tension with CMB. These ten- sions can also be captured inr d values. Adding DESI DR2 to Pantheon+, Union3 and DESY5 leads to a 5.30\u03c3, 2.86\u03c3and 4.26\u03c3tension with CMB when estimatingr d, respectively. Notice that there is a beyond 2\u03c3tension be- tween Pantheon+ plus DESI DR2 and DESY5 plus DESI DR2. This suggests a clear discrepancy among SN sam- ples. Interestingly, CMB plus DESI DR2 is in beyond 3\u03c3, beyond 2\u03c3and\u223c1.5\u03c3tensions with Pantheon+, DESY5 and Union3, respectively.",
+              "score": 0.9227884173651684
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "All these discrepan- cies demonstrate that the DDE evidences from combined constraints are problematic. Furthermore, we give more complete constraints on (\u03c90, \u03c9 a) using a wider prior than that the Planck and DESI collaborations used [1, 30, 31]. We find that CMB is in a\u223c2\u03c3tension with DESI DR2 and three SN sam- ples are basically inconsistent with CMB at\u223c1\u03c3level. Since DESI DR2 with a clear different degeneracy direc- tion of (\u03c9 0, \u03c9 a) from SN has a\u223c1\u03c3tension with SN, the DDE evidences from DESI DR2 plus CMB or SN are problematic. Additionally, even for the SN-only case, there is also an inconsistency among SN samples, i.e., Pantheon+ is consistent with \u039bCDM within 1\u03c3level, while Union3 and DESY5 exhibit beyond 1\u03c3tensions TABLE I: Mean values and 1\u03c3(68%) uncertainties of free parameters from different datasets in the CPL model.",
+              "score": 0.9222415998448822
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 4,
+              "text": "The DESI DR2 data, when combined with CMB and SN data, appears to provide increasing evidence for Dynamical Dark Energy (DDE). However, our analysis demonstrates that this conclusion is not robust. By con- straining the CPL model with independent observations and various data combinations, we identify significant tensions between different datasets. These tensions lead to problematic constraints when incompatible datasets are combined. Although the combined constraints yield \u2126 m andH 0 values close to those from the CMB-only constraint on \u039bCDM, we believe this to be coincidental. In the CPL model, the effect of the cosmological constant in \u039bCDM is partially replaced by a larger matter fraction and DDE. The combination of CMB, DESI DR2, and SN data results in a lowerH 0 value because DESI DR2 indicates a high \u2126 m = 0.385\u00b10.049.",
+              "score": 0.9136548752859154
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "SN datasets clearly prefer a larger CMB Pantheon+ Union3 DESY5 DESI+Pantheon+ DESI+Union3 DESI+DESY5 CMB+DESI CMB+DESI+Pantheon+ CMB+DESI+Union3 CMB+DESI+DESY5 CMB DESI Pantheon+ Union3 DESY5 DESI+Pantheon+ DESI+Union3 DESI+DESY5 CMB+DESI CMB+DESI+Pantheon+ CMB+DESI+Union3 CMB+DESI+DESY5 FIG. 2: Two-dimensional posterior distributions of the parameter pairs (\u2126 m,H 0) and (\u03c9 0,\u03c9 a) from different datasets in the CPL model. The vertical shaded grey regions are the constrained 1\u03c3and 2 m values from DESI DR2. The cross point of blue dashed lines represents \u039bCDM. The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2.",
+              "score": 0.9119877421716852
+            }
+          ],
+          "timestamp": "2026-06-01T12:56:42.159105"
+        },
+        {
+          "tool": "STEELMAN",
+          "concept": "DESI collaboration findings",
+          "steelmaned_paper": "paper_a",
+          "response": {
+            "Argument": "Paper A clearly demonstrates that the inclusion of DESI DR2 data with CMB and SN datasets results in significant tensions across multiple parameters, such as \u03a9m and H0, which challenge the robustness of Dynamical Dark Energy (DDE) evidence. The analysis highlights that these tensions lead to problematic constraints when incompatible datasets are combined, and suggests that the observed alignment of values close to those from CMB-only constraints on \u039bCDM is coincidental rather than indicative of new physics. Furthermore, the paper emphasizes that the discrepancies among SN samples and the differing degeneracy directions of DESI DR2 compared to SN further undermine the support for DDE from these combined constraints."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2. However, the accompanyingH 0 tension is not reported. In Fig.1, we find that Pantheon+, Union3 and DESY5 exhibitH 0 tensions with CMB [1] at 5.31\u03c3, 1.69\u03c3and 3.03\u03c3levels, respectively. Although three SN samples are well cali- brated, they suffer from internal inconsistencies in their preferredH 0 values. For instance, Pantheon+ is in a 3.86\u03c3tension with DESY5. The main goal of DESI is exploring the nature of DE including its possible dynam- ics. Based on the new motivation that DDE could help resolve the \u2126 m tension in \u039bCDM, we implement con- straints on the CPL DDE and find that CMB prefers a smaller \u2126m, while DESI DR2 and SN prefer larger matter fractions.",
+              "score": 0.9505083887814768
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Interestingly, \u2126 m tensions between DESI DR2 and CMB, Pantheon+, Union3, and DESY5 are well al- leviated from 1.57\u03c3, 1.83\u03c3, 2.10\u03c3and 2.81\u03c3to 0.14\u03c3, 0.21\u03c3, 0.49\u03c3and 0.94\u03c3, respectively. It seems that DDE solves the \u2126 m discrepancies, however, the price is DESI DR2 and SN give larger \u2126 m (e.g.\u223c0.5) in CPL than in \u039bCDM, while theH 0 tension between Pantheon+ and DESY5 increases from 3.86\u03c3to 4.29\u03c3(see Tab.I). There- fore, the well-known fact that the late universe is dom- inated by DE is largely challenged in CPL. Note that CMB cannot constrainH 0 in CPL, due to the weak con- straint on the DE EoS.",
+              "score": 0.926086305961363
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Es- pecially, DESY5 gives a\u223c2\u03c3tension with CMB. Even worse, the addition of DESI DR2 to SN leads to beyond 2\u03c3tensions with CMB, particularly, DESY5 plus DESI DR2 gives a beyond 3\u03c3tension with CMB. These ten- sions can also be captured inr d values. Adding DESI DR2 to Pantheon+, Union3 and DESY5 leads to a 5.30\u03c3, 2.86\u03c3and 4.26\u03c3tension with CMB when estimatingr d, respectively. Notice that there is a beyond 2\u03c3tension be- tween Pantheon+ plus DESI DR2 and DESY5 plus DESI DR2. This suggests a clear discrepancy among SN sam- ples. Interestingly, CMB plus DESI DR2 is in beyond 3\u03c3, beyond 2\u03c3and\u223c1.5\u03c3tensions with Pantheon+, DESY5 and Union3, respectively.",
+              "score": 0.9227447818241862
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "All these discrepan- cies demonstrate that the DDE evidences from combined constraints are problematic. Furthermore, we give more complete constraints on (\u03c90, \u03c9 a) using a wider prior than that the Planck and DESI collaborations used [1, 30, 31]. We find that CMB is in a\u223c2\u03c3tension with DESI DR2 and three SN sam- ples are basically inconsistent with CMB at\u223c1\u03c3level. Since DESI DR2 with a clear different degeneracy direc- tion of (\u03c9 0, \u03c9 a) from SN has a\u223c1\u03c3tension with SN, the DDE evidences from DESI DR2 plus CMB or SN are problematic. Additionally, even for the SN-only case, there is also an inconsistency among SN samples, i.e., Pantheon+ is consistent with \u039bCDM within 1\u03c3level, while Union3 and DESY5 exhibit beyond 1\u03c3tensions TABLE I: Mean values and 1\u03c3(68%) uncertainties of free parameters from different datasets in the CPL model.",
+              "score": 0.9222344946616539
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 4,
+              "text": "The DESI DR2 data, when combined with CMB and SN data, appears to provide increasing evidence for Dynamical Dark Energy (DDE). However, our analysis demonstrates that this conclusion is not robust. By con- straining the CPL model with independent observations and various data combinations, we identify significant tensions between different datasets. These tensions lead to problematic constraints when incompatible datasets are combined. Although the combined constraints yield \u2126 m andH 0 values close to those from the CMB-only constraint on \u039bCDM, we believe this to be coincidental. In the CPL model, the effect of the cosmological constant in \u039bCDM is partially replaced by a larger matter fraction and DDE. The combination of CMB, DESI DR2, and SN data results in a lowerH 0 value because DESI DR2 indicates a high \u2126 m = 0.385\u00b10.049.",
+              "score": 0.9136129919981315
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "SN datasets clearly prefer a larger CMB Pantheon+ Union3 DESY5 DESI+Pantheon+ DESI+Union3 DESI+DESY5 CMB+DESI CMB+DESI+Pantheon+ CMB+DESI+Union3 CMB+DESI+DESY5 CMB DESI Pantheon+ Union3 DESY5 DESI+Pantheon+ DESI+Union3 DESI+DESY5 CMB+DESI CMB+DESI+Pantheon+ CMB+DESI+Union3 CMB+DESI+DESY5 FIG. 2: Two-dimensional posterior distributions of the parameter pairs (\u2126 m,H 0) and (\u03c9 0,\u03c9 a) from different datasets in the CPL model. The vertical shaded grey regions are the constrained 1\u03c3and 2 m values from DESI DR2. The cross point of blue dashed lines represents \u039bCDM. The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2.",
+              "score": 0.911981455236447
+            }
+          ],
+          "timestamp": "2026-06-01T12:57:45.714925"
+        },
+        {
+          "tool": "CHALLENGE",
+          "concept": "DESI collaboration findings",
+          "challenged_paper": "paper_a",
+          "response": {
+            "passage_verdicts": [
+              {
+                "text_snippet": "Our analysis demonstrates that this conclusion is not robust. By constraining the CPL model with independent observations and various data combinations, we identify significant tensions between different datasets.",
+                "verdict": "supports",
+                "reasoning": "This passage supports the claim by indicating that the conclusion about DDE evidence is not robust due to significant tensions between datasets."
+              },
+              {
+                "text_snippet": "These tensions lead to problematic constraints when incompatible datasets are combined.",
+                "verdict": "supports",
+                "reasoning": "This statement supports the claim as it highlights problematic constraints arising from the combination of incompatible datasets."
+              },
+              {
+                "text_snippet": "Interestingly, DDE solves the \u03a9m discrepancies, however, the price is DESI DR2 and SN give larger \u03a9m (e.g.\u223c0.5) in CPL than in \u039bCDM, while theH 0 tension between Pantheon+ and DESY5 increases.",
+                "verdict": "supports",
+                "reasoning": "This passage supports the claim by pointing out that resolving \u03a9m discrepancies via DDE results in increased H0 tension."
+              },
+              {
+                "text_snippet": "The main goal of DESI is exploring the nature of DE including its possible dynamics.",
+                "verdict": "neutral",
+                "reasoning": "This passage is neutral as it describes the goal of DESI without directly addressing the claim about tensions or robustness."
+              },
+              {
+                "text_snippet": "Notice that there is a beyond 2\u03c3 tension between Pantheon+ plus DESI DR2 and DESY5 plus DESI DR2.",
+                "verdict": "supports",
+                "reasoning": "This passage supports the claim by identifying a large tension indicating discrepancies among SN samples."
+              },
+              {
+                "text_snippet": "The key reason is that the DDE evidence is derived by the data combination of CMB, DESI DR2 and SN, not from each probe independently.",
+                "verdict": "supports",
+                "reasoning": "This supports the claim by emphasizing that DDE evidence is not derived independently, casting doubt on its robustness."
+              }
+            ],
+            "overall_verdict": "holds",
+            "overall_reasoning": "The passages from paper_a collectively support the claim that there are significant tensions and inconsistencies when combining DESI DR2 data with CMB and SN datasets for analyzing DDE. Several passages highlight issues like increased tensions and coincidental alignment rather than true evidence, aligning with the assertion that the robustness of DDE evidence is questionable when these datasets are combined. The overall evidence is consistent with challenging the initial evidence for DDE, hence the claim holds up under scrutiny."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 4,
+              "text": "The DESI DR2 data, when combined with CMB and SN data, appears to provide increasing evidence for Dynamical Dark Energy (DDE). However, our analysis demonstrates that this conclusion is not robust. By con- straining the CPL model with independent observations and various data combinations, we identify significant tensions between different datasets. These tensions lead to problematic constraints when incompatible datasets are combined. Although the combined constraints yield \u2126 m andH 0 values close to those from the CMB-only constraint on \u039bCDM, we believe this to be coincidental. In the CPL model, the effect of the cosmological constant in \u039bCDM is partially replaced by a larger matter fraction and DDE. The combination of CMB, DESI DR2, and SN data results in a lowerH 0 value because DESI DR2 indicates a high \u2126 m = 0.385\u00b10.049.",
+              "score": 0.9391047324249514
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "All these discrepan- cies demonstrate that the DDE evidences from combined constraints are problematic. Furthermore, we give more complete constraints on (\u03c90, \u03c9 a) using a wider prior than that the Planck and DESI collaborations used [1, 30, 31]. We find that CMB is in a\u223c2\u03c3tension with DESI DR2 and three SN sam- ples are basically inconsistent with CMB at\u223c1\u03c3level. Since DESI DR2 with a clear different degeneracy direc- tion of (\u03c9 0, \u03c9 a) from SN has a\u223c1\u03c3tension with SN, the DDE evidences from DESI DR2 plus CMB or SN are problematic. Additionally, even for the SN-only case, there is also an inconsistency among SN samples, i.e., Pantheon+ is consistent with \u039bCDM within 1\u03c3level, while Union3 and DESY5 exhibit beyond 1\u03c3tensions TABLE I: Mean values and 1\u03c3(68%) uncertainties of free parameters from different datasets in the CPL model.",
+              "score": 0.934657465557194
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "The red dashed line denotes\u03c9 0 = 0. matter fraction than CMB and DESI DR2. However, the accompanyingH 0 tension is not reported. In Fig.1, we find that Pantheon+, Union3 and DESY5 exhibitH 0 tensions with CMB [1] at 5.31\u03c3, 1.69\u03c3and 3.03\u03c3levels, respectively. Although three SN samples are well cali- brated, they suffer from internal inconsistencies in their preferredH 0 values. For instance, Pantheon+ is in a 3.86\u03c3tension with DESY5. The main goal of DESI is exploring the nature of DE including its possible dynam- ics. Based on the new motivation that DDE could help resolve the \u2126 m tension in \u039bCDM, we implement con- straints on the CPL DDE and find that CMB prefers a smaller \u2126m, while DESI DR2 and SN prefer larger matter fractions.",
+              "score": 0.9156366836731256
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Interestingly, \u2126 m tensions between DESI DR2 and CMB, Pantheon+, Union3, and DESY5 are well al- leviated from 1.57\u03c3, 1.83\u03c3, 2.10\u03c3and 2.81\u03c3to 0.14\u03c3, 0.21\u03c3, 0.49\u03c3and 0.94\u03c3, respectively. It seems that DDE solves the \u2126 m discrepancies, however, the price is DESI DR2 and SN give larger \u2126 m (e.g.\u223c0.5) in CPL than in \u039bCDM, while theH 0 tension between Pantheon+ and DESY5 increases from 3.86\u03c3to 4.29\u03c3(see Tab.I). There- fore, the well-known fact that the late universe is dom- inated by DE is largely challenged in CPL. Note that CMB cannot constrainH 0 in CPL, due to the weak con- straint on the DE EoS.",
+              "score": 0.9113553975418882
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Es- pecially, DESY5 gives a\u223c2\u03c3tension with CMB. Even worse, the addition of DESI DR2 to SN leads to beyond 2\u03c3tensions with CMB, particularly, DESY5 plus DESI DR2 gives a beyond 3\u03c3tension with CMB. These ten- sions can also be captured inr d values. Adding DESI DR2 to Pantheon+, Union3 and DESY5 leads to a 5.30\u03c3, 2.86\u03c3and 4.26\u03c3tension with CMB when estimatingr d, respectively. Notice that there is a beyond 2\u03c3tension be- tween Pantheon+ plus DESI DR2 and DESY5 plus DESI DR2. This suggests a clear discrepancy among SN sam- ples. Interestingly, CMB plus DESI DR2 is in beyond 3\u03c3, beyond 2\u03c3and\u223c1.5\u03c3tensions with Pantheon+, DESY5 and Union3, respectively.",
+              "score": 0.9069467838233675
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "If DDE is finally demonstrated to be true, it will indicate that the vacuum is not empty and it does have matter. There- fore, the DESI\u2019s finding of DDE evidence is crucial for theory. Up to date, the addition of CMB and SN data to DESI DR2 leads to 2.8\u22124.2\u03c3evidence of DDE [30], depending on which SN sample is used. Although the un- precedented precision and number of data points lead to arXiv:2504.15222v2 [astro-ph.CO] 20 Nov 2025 the evidence of DDE, we should be very cautious about these results. The key reason is that the DDE evidence is derived by the data combination of CMB, DESI DR2 and SN, not from each probe independently. If each of CMB, DESI DR2 and SN gives consistent constraints on the cosmological parameters including the matter frac- tion and DE EoS, one can safely claim that DDE do exist in the late-time universe.",
+              "score": 0.9038767596545665
+            }
+          ],
+          "timestamp": "2026-06-01T12:57:53.378605"
+        }
+      ],
+      "created_at": "2026-06-01T12:55:41.832140"
+    }
+  ]
+}

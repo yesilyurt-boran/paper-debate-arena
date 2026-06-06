@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-01T23:30:52.432646",
+  "papers": {
+    "paper_a": "paper_a",
+    "paper_b": "paper_b"
+  },
+  "nodes": [
+    {
+      "id": "paper_a",
+      "type": "paper"
+    },
+    {
+      "id": "paper_b",
+      "type": "paper"
+    },
+    {
+      "id": "paper_a_conflict_2_evolving_dark_energy",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "evolving dark energy",
+      "text": [
+        "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets.",
+        "Interestingly, when considering DDE, none of the individual datasets\u2014including CMB, DESI DR2, Pantheon+, Union3, and DESY5\u2014can inde- pendently detect cosmic acceleration at a significant level. Our findings not only clarify the current understanding of the nature of dark energy but also challenge the established discovery of cosmic acceleration and the long-held notion that dark energy exerts negative pressure. Both individual and combined datasets suggest that the ultimate fate of the universe is likely to be dominated by matter rather than dark energy.",
+        "Particu- larly, CMB gives a 1.3\u03c3hint of\u03c9 0 >0, allowing that DE has a positive pressure. Our findings not only profoundly challenge the understanding of cosmic acceleration, but also challenge the long-held notion that the pressure of DE is negative. Interestingly, we find that both inde- pendent and combined datasets prefer that the ultimate destiny of the universe is completely filled with matter not DE, i.e., \u2126 m = 1. At some point in the distant fu- ture, matter will dominate the evolution of the universe. Finally, the universe will miraculously stop moving [51]. More details about the fate of the universe will be shown in [52]."
+      ],
+      "sections": [
+        "abs",
+        "abs",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_2_evolving_dark_energy",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "evolving dark energy",
+      "text": [
+        "Received: 3 March 2026 / Accepted: 2 May 2026 \u00a9 The Author(s) 2026 Abstract Evidences for evolving dark energy are shown using baryon acoustic oscillation measurements from the recent Dark Energy Spectroscopic Instrument Data Release 2, combined with different Type Ia supernova datasets (Pantheon +, DES-Dovekie, and Union3) and the CMB com- pressed likelihood. We examine several dark energy param- eterizations, including the Logarithmic, Exponential, CPL, BA, JBP, Thawing, Mirage, and GEDE models. Analyzing the DESI DR2 measurements alone, we \ufb01nd that evidence for evolving dark energy is primarily driven by the LRG1-2 trac- ers, as their inclusion yields a preferred value of w However, as each tracer provides only limited observables, this preference can result in an underconstrained and poten- tially unstable inference.",
+        "This trend is reinforced by the Union3 compilation [20], which reports a mild 1.7\u20132.6\u03c3 tension with /Lambda1CDM, favoring models where \u03c9 0 > \u22121 and \u03c9a < 0. Collectively, these observations point toward a potentially evolving dark energy component, with an equa- tion of state that increases over time and a present value In 2024, building on hints of the evolving nature of dark energy from the Pantheon + and Union3 compilations, DES- SN5YR found that whether using supernova data alone or in joint \ufb01ts with the CMB, BAO, and three two point (3 \u00d72pt) measurements which refer to the joint analysis of three two- point correlation functions: galaxy clustering, galaxy\u2013galaxy lensing, and cosmic shear, the best \ufb01t equation of state (EoS w is consistently slightly greater than \u22121 at more than the 1\u03c3 level. This behavior agrees with results from Union3 and supports a trend toward mildly dynamical dark energy.",
+        "Recently, the DES Collaboration reported improved cosmo- logical constraints from a re-analysis of the DES-SN5YR catalog, showing that the preference for dynamical dark energy is reduced to a statistical signi\ufb01cance of 3 .2\u03c3, com- pared to the earlier 4 .2\u03c3 result obtained with DES-SN5YR [21]. Yet several studies have also shown that, in the DES- SN5YR dataset, the evidence for dynamical dark energy is biased by low-redshift SNe Ia [ 22\u201325]. Compared to DR1, DR2 offers tighter constraints with improved precision and reduced uncertainties. Following the DR2 BAO release, [8,9] performed an extended analysis of dark energy dynamics and con\ufb01rmed evidence of a time-varying EoS. Evidence for a time-evolving dark energy model with a statistical signi\ufb01- cance exceeding 5\u03c3 has also been reported [26]."
+      ],
+      "sections": [
+        "abs",
+        "body",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_a_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "baryon acoustic oscillations (BAO)",
+      "text": [
+        "It is worth noting that, besides the theoretical developments, more importantly, we require new independent and powerful probes with higher precision to give definite answers on some core puzzles. To achieve this goal, a very promising probe is BAO. BAO are regular and periodic matter density fluctu- ations of the universe [21], which originate from sound waves induced by hot baryon-photon plasma before the epoch of recombination. The characteristic scale of BAO, approximately 150 Mpc, which is the maximum distance that the acoustic waves could travel in the primordial plasma before the plasma cooled to the point where it be- came neutral atoms at the recombination epoch, serves as a standard ruler in cosmology. Many BAO experiments such as 2dF [7], 6dF [8], SDSS [6] and eBOSS [14, 15] map the late-time expansion history of the universe by measuring the apparent size of this ruler at different red- shifts.",
+        "BAO are very clean probes to explore the evolu- tion of the universe over time, which is unaffected by the nonlinear physics on small scales and relatively robust to systematic uncertainties compared to other cosmological probes. Recently, the DESI collaboration give the substantial evidence of DDE [29], based on their measurements of BAO in galaxy, quasar and Lyman-\u03b1forest tracers from the first data release (DR1) of the Dark Energy Spec- troscopic Instrument (DESI) [16, 17]. Interestingly, this DDE evidence is enhanced [30, 31] by the DESI\u2019s sec- ond data release (DR2) including more than 14 million galaxies and quasars, based on three years of operation In theory, DDE predicts: (i) the equation of state (EoS) and energy densities of dark energy (DE) evolves over time; (ii) different expansion history of the universe from \u039bCDM; (iii) the rate at which cosmic structures like galaxies and clusters form can be changed; (iv) the fate of the universe can be significantly affected.",
+        "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "abs"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "baryon acoustic oscillations (BAO)",
+      "text": [
+        "The obtained results are subsequently analyzed and visu- alized using the GetDist package [101]. Our analysis is based on data obtained from Baryon Acoustic Oscillation measurements, Type Ia supernovae, and Compressed CMB likelihood, which are detailed below: \u2022 Baryon Acoustic Oscillation: In our analysis, we use the recent BAO measurements from DESI Data Release 2 (DR2) [7]. These measurements are extracted using var- ious tracers such as the Bright Galaxy Sample (BGS), https://github.com/ja-vazquez/SimpleMC.git  564 Page 4 of 21 Eur. Phys. J. C (2026) 86:564  Table 1 Dark energy parameterizations with their equations of state w(z) and evolution functions fDE (z) Parameterization w(z) fDE (z) Reference Logarithmic w0 + wa log(1 + z)( 1 + z)3(1+w0)e 2 wa(log(1+z))2 Exponential w0 + wa 3wa",
+        "Dark energy (DE) has been postulated to account for the observed accelerated expansion of the Universe [ 1,2]. The advent of a new era of precision cosmology has been made possible by recent developments in large-scale structure sur- veys, which have allowed for rigorous testing of the conven- tional positive cosmological constant with cold dark matter, i.e., /Lambda1CDM paradigm [ 3]. Among these, the Dark Energy Spectroscopic Instrument (DESI) is notable for its use of Baryon acoustic oscillations (BAO) observations to track cosmic expansion [4\u20139]. By analyzing standard cosmologi- cal rulers such as BAO, it is possible to place constraints on whether DE operates as a cosmological constant or exhibits time-dependent dynamical behavior [10\u201315]. Planck\u2019s \ufb01rst-year data release in 2013 [ 16] indicated \u22120.14, slightly favoring the phantom regime.",
+        "As a result, the apparent anomaly in /Omega1 m may re\ufb02ect statistical artifacts rather than genuine physical constraints. Motivated by this, we go beyond the DESI BAO-only analysis in the following sections by incor- porating different Type Ia supernova samples and a CMB compressed likelihood. 4.2 Evidence for evolving dark energy using DESI DR2 BAO with other datasets In the previous section, we constrained each DE model using only the DESI DR2 dataset. We found that, across all models, the posterior distributions in the w 0\u2013wa plane indicate that wa remains poorly constrained when relying solely on DESI DR2 data. To improve these constraints and break param- eter degeneracies, we now incorporate additional datasets, combining DESI DR2 with various Type Ia supernova com- pilations and CMB measurements. Table 4 presents the numerical values obtained for each cosmological model using MCMC analysis."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "conclusion"
+      ]
+    },
+    {
+      "id": "paper_a_conflict_6_type_ia_supernova_datasets",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "Type Ia supernova datasets",
+      "text": [
+        "To completely explore the DE EoS at late times, we adopt three well-calibrated SN compilations: (i) Pantheon+ consisting of 1701 data points from 18 different surveys inz\u2208[0.00122,2.26137] [6]; (ii) Union3 with 22 spline-interpolated data points derived by 2087 SN from 24 different surveys inz\u2208 [0.05,2.26] [3]; (iii) DESY5 including 1735 effective data points inz\u2208[0.025,1.130] [4]. We carefully explain why we use calibrated SN datasets to implement constraints in the supplementary material (SM). P/Pmax CDM CDM  CMB DESI Pantheon+ Union3 DESY5 P/Pmax CPLCPL CMB DESI Pantheon+ Union3 DESY5 FIG.",
+        "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets.",
+        "BAO are very clean probes to explore the evolu- tion of the universe over time, which is unaffected by the nonlinear physics on small scales and relatively robust to systematic uncertainties compared to other cosmological probes. Recently, the DESI collaboration give the substantial evidence of DDE [29], based on their measurements of BAO in galaxy, quasar and Lyman-\u03b1forest tracers from the first data release (DR1) of the Dark Energy Spec- troscopic Instrument (DESI) [16, 17]. Interestingly, this DDE evidence is enhanced [30, 31] by the DESI\u2019s sec- ond data release (DR2) including more than 14 million galaxies and quasars, based on three years of operation In theory, DDE predicts: (i) the equation of state (EoS) and energy densities of dark energy (DE) evolves over time; (ii) different expansion history of the universe from \u039bCDM; (iii) the rate at which cosmic structures like galaxies and clusters form can be changed; (iv) the fate of the universe can be significantly affected."
+      ],
+      "sections": [
+        "body",
+        "abs",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_6_type_ia_supernova_datasets",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "Type Ia supernova datasets",
+      "text": [
+        "\u2022 Type Ia supernovae: We also use three different SNe Ia compilations to improve the constraints on cosmological parameters. Among them, the Pantheon + (PP) sample [19] includes 1701 light curves from 1550 SNe Ia obser- vations spanning the redshift range 0.01 \u2264 z \u2264 2.26. We exclude light curves at z < 0.01, as such low redshift data are affected by signi\ufb01cant systematic uncertainties due to peculiar velocities. We also use the re-calibrated 1,820 photometric light curves collected over \ufb01ve years by the Dark Energy Survey Supernova Program (DES- Dovekie) [ 21], which includes 1,623 DES-discovered Type Ia supernovae and 197 externally sourced low- z supernovae from the CfA and CSP samples [ 103\u2013 105].",
+        "As a result, the apparent anomaly in /Omega1 m may re\ufb02ect statistical artifacts rather than genuine physical constraints. Motivated by this, we go beyond the DESI BAO-only analysis in the following sections by incor- porating different Type Ia supernova samples and a CMB compressed likelihood. 4.2 Evidence for evolving dark energy using DESI DR2 BAO with other datasets In the previous section, we constrained each DE model using only the DESI DR2 dataset. We found that, across all models, the posterior distributions in the w 0\u2013wa plane indicate that wa remains poorly constrained when relying solely on DESI DR2 data. To improve these constraints and break param- eter degeneracies, we now incorporate additional datasets, combining DESI DR2 with various Type Ia supernova com- pilations and CMB measurements. Table 4 presents the numerical values obtained for each cosmological model using MCMC analysis.",
+        "Sub- sequent improvements in supernova calibration through the 2014 Joint Light-curve Analysis (JLA) dataset [17] alleviated this tension, and combining JLA with Planck2013 results brought dark energy constraints into agreement with/Lambda1CDM. The Planck-15 analysis [ 18,18], which adopted JLA as its default supernova dataset, con\ufb01rmed this consistency, report- ing w =\u2212 1.006 \u22120.091. More recently, the 2022 Pantheon+ 0123456789().: V ,-vol 123  564 Page 2 of 21 Eur. Phys. J. C (2026) 86:564  compilation [19] found w =\u2212 0.90 \u00b1 0.14 from supernova data alone, and w =\u2212 0.978+0.024 \u22120.031 when combined with CMB and BAO measurements. While these results remain consistent with /Lambda1CDM within 2\u03c3, they show a mild devi- ation relative to earlier datasets."
+      ],
+      "sections": [
+        "body",
+        "conclusion",
+        "body"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_2_evolving_dark_energy",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_6_type_ia_supernova_datasets",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_2_evolving_dark_energy",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_6_type_ia_supernova_datasets",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a_conflict_2_evolving_dark_energy",
+      "target": "paper_b_conflict_2_evolving_dark_energy",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A challenges the robustness of DESI's claim of dynamical dark energy due to dataset tensions, while Paper B reports evidence supporting evolving dark energy with various datasets.",
+      "type_reasoning": "The conflict is empirical because the two papers report different conclusions on the evidence for evolving dark energy based on overlapping yet differently interpreted observational datasets.",
+      "interrogations": [],
+      "created_at": "2026-06-01T23:30:51.578012"
+    },
+    {
+      "source": "paper_a_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "target": "paper_b_conflict_4_baryon_acoustic_oscillations_(bao)",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A questions the robustness of DESI's claim of dynamical dark energy (DDE) due to dataset tensions, while Paper B incorporates additional datasets to potentially resolve these issues.",
+      "type_reasoning": "The conflict arises from Paper A highlighting issues with dataset tensions that undermine DESI's DDE claim, while Paper B attempts to address similar issues by incorporating more datasets, indicating an empirical disagreement on the sufficiency and reliability of the datasets involved.",
+      "interrogations": [],
+      "created_at": "2026-06-01T23:30:51.578012"
+    },
+    {
+      "source": "paper_a_conflict_6_type_ia_supernova_datasets",
+      "target": "paper_b_conflict_6_type_ia_supernova_datasets",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A suggests that the combinations of CMB, BAO, and SN datasets present problems and inconsistencies when used to constrain the evolution of dark energy, whereas Paper B implies these combinations, specifically incorporating additional supernova datasets, improve constraints and align with \u039bCDM.",
+      "type_reasoning": "The conflict arises from differing empirical conclusions about the combination of datasets: Paper A identifies inconsistencies and suggests issues with the robustness of combining datasets for constraining dark energy models, while Paper B finds improved constraints and consistency with the \u039bCDM model when similar combinations are used.",
+      "interrogations": [],
+      "created_at": "2026-06-01T23:30:51.578012"
+    }
+  ]
+}
