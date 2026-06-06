@@ -82,10 +82,9 @@ Frontend: React 19, Vite 8, React Flow 11, Axios, Tailwind CSS 4
 
 ## Demo
 
-Two papers on competing interpretations of DESI DR2 dark energy evidence, followed by a Review mode demonstration on a condensed matter physics paper pair covering valley polarization in MoSe2/CrSBr heterostructures.
 [![Debate Arena Demo](https://img.youtube.com/vi/eo8o9LTj3Bo/0.jpg)](https://www.youtube.com/watch?v=eo8o9LTj3Bo)
----
 
+Two papers on competing interpretations of DESI DR2 dark energy evidence, followed by a Review mode demonstration on a condensed matter physics paper pair covering valley polarization in MoSe2/CrSBr heterostructures.
 ## Setup
 
 **Backend**
