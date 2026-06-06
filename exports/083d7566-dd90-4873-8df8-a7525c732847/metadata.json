@@ -1,0 +1,39 @@
+{
+  "session_id": "083d7566-dd90-4873-8df8-a7525c732847",
+  "paper_a": {
+    "id": "paper_a",
+    "filename": "paper1.pdf",
+    "sections": {
+      "abs": {
+        "page_start": 1,
+        "page_end": 1
+      },
+      "body": {
+        "page_start": 1,
+        "page_end": 4
+      },
+      "conclusion": {
+        "page_start": 4,
+        "page_end": 4
+      }
+    }
+  },
+  "paper_b": {
+    "id": "paper_b",
+    "filename": "paper2.pdf",
+    "sections": {
+      "abs": {
+        "page_start": 1,
+        "page_end": 1
+      },
+      "body": {
+        "page_start": 1,
+        "page_end": 4
+      },
+      "conclusion": {
+        "page_start": 4,
+        "page_end": 6
+      }
+    }
+  }
+}

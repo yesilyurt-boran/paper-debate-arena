@@ -1,0 +1,334 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-05T23:35:32.123674",
+  "papers": {
+    "paper_a": "paper_a",
+    "paper_b": "paper_b"
+  },
+  "nodes": [
+    {
+      "id": "paper_a",
+      "type": "paper"
+    },
+    {
+      "id": "paper_b",
+      "type": "paper"
+    },
+    {
+      "id": "paper_a_conflict_2_valley_polarization",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "Valley polarization",
+      "text": [
+        "We note that our PL signal is comparably quenched in both\u03c3+ and polarizations, yet shows a 10 % DOCP in the trion state. We attribute this to a complex interplay between exciton valley dynamics and spin-dependent in- terlayer charge transfer in our sample. In MoSe 2, the ex- citon dispersion experiences an energy splitting between excitons with dipole moment parallel (longitudinal, L) or perpendicular (transverse, T) to their in-plane wavevec- tor, k, arising from the long range electron-hole exchange interaction [50, 51]. This L-T splitting is linearly pro- portional to k outside the light cone, and manifests as an e\ufb00ective magnetic \ufb01eld acting on the exciton valley pseudospin, causing precession and associated valley de- polarization, aided by disorder scattering [50\u201352]. Conse- quently, valley depolarization is extremely e\ufb03cient (< 0.1 ps [53]) for high-k excitons, and suppressed for low-k ex- citons (Fig.",
+        "However, in this case, a hole valley polarization may be ruled out as the origin of the observed trion DOCP for three reasons. Firstly, any im- balance between the itinerant carrier populations of the a MoSe2 CrBr3 PUMP Valence Conduction Bands Bands PL Minority-spin t2g orbitals Majority-spin eg orbitals Slower tunnelling Resonant Resident hole population tunnelling Light cone Exciton dispersion Rapid valley decay Weak valley decay Splitting \u221dk Relaxation <ps emission / trion formation FIG. 3. Spin-dependent interlayer tunnelling. (a) Schematic of spin-dependent interlayer charge transfer over the MoSe2 / CrBr 3 interface. The type-II band alignment precludes a static electron doping in MoSe 2, and so we infer a resident hole population. In CrBr 3, the CB is strongly split into oppositely spin polarized bands. Only the minority-spin bands are resonant with the MoSe 2 CB.",
+        "3b). As such, any valley polarization from interlayer tunnelling at higher energies (closer to the laser at 1.946 eV) is quickly erased, and the tunnelling serves only to uniformly quench both the \u03c3+ and PL spec- tra. We expect the tunnelling to be very e\ufb03cient at these higher energies owing to resonant interlayer band align- ment and regions of hybridization evident in Fig. 1e be- tween the MoSe2 CB and CrBr3 t2g states. This e\ufb03cient hot electron tunnelling will indeed be highly spin polar- ized, but the comparably fast valley depolarization in MoSe2 ensures that no signatures persist in the observed DOCP. We therefore believe that the measured DOCP is sen- sitive only to spin/valley dynamics in the energy range corresponding to vanishing exciton centre-of-mass mo- mentum, close to or inside the light cone."
+      ],
+      "sections": [
+        "conclusion",
+        "conclusion",
+        "conclusion"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_2_valley_polarization",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "Valley polarization",
+      "text": [
+        "(g) Schematic illustration of absorption, emission, and spin-dependent charge transfer processes in the heterostructure. field. Valley polarization can be quantified by calculat- ing the degree of circular polarization (DOCP), as DOCP = (I\u03c3+\u2212I )/(I\u03c3+ +I ), whereI\u03c3+(I ) represents the PL intensity with \u03c3+( ) polarization. The PL spectra at each magnetic field were fitted with two Gaussian func- tions to extract the DOCP of the trion and X\u2217(see Sup- plemental Material Fig. S5). As depicted in Fig. 3(c), both peaks exhibit a linear but opposite correlation of DOCP with the magnetic field, saturating around \u00b12.2 T. Reflective magnetic circular dichroism (RMCD) spec- troscopy (Fig. 3(d)) confirms that the underlying CrSBr flake undergoes a spin-canting process under a perpen- dicular magnetic field and is fully spin-polarized at the saturation field Bsat =\u00b12.2 T[24, 34].",
+        "At a zero magnetic field, the\u03c3+ and  polarized PL spectra are nearly identical, as expected due to the in-plane magnetization of CrSBr and the pre- served valley degeneracy of MoSe 2. Upon increasing the magnetic field to \u00b13 T, clear polarization and energy splitting were observed in both the trion and X \u2217peaks, indicating the breaking of valley degeneracy and time- reversal symmetry. Fig. 3(b) depicts the difference in PL intensity between \u03c3+ and polarized emission in the parameter space of the magnetic field and the emis- sion energy. Notably, the intensity contrast of the trion and X\u2217exhibits opposite dependences with the magnetic Figure 3. Charge transfer-mediated distinct valley polarization between X \u2217and trions. (a) Right and left circularly polarized PL spectra at selective magnetic fields. (b) The difference in PL intensity between \u03c3+ and polarizations in the energy and magnetic field parameter space.",
+        "This elucidates the distinct and mirrored polarization behavior between X\u2217and trion peaks. It should be noted that, as stated in previous stud- ies, an applied magnetic field can induce opposite val- ley polarization for excitons and trions in hole-doped MoSe2[8, 39]. However, in the MoSe2/CrSBr heterostruc- ture, the DOCP of trion and X\u2217both exhibit discernible saturation trends above Bsat, implying the valley po- Figure 4. Proximity-induced anisotropic PL of MoSe 2/CrSBr heterostructure. (a) Excitation polarization angle-dependent PL spectra of the heterostructure. The white dashed lines represent the corresponding angles along the a- and b-axis, respectively. (b) Extracted PL intensity of trion (orange), X\u2217(blue) and CrSBr exciton (green) as a function of excitation polarization angle. (c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "body"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_2_valley_polarization",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_2_valley_polarization",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a_conflict_2_valley_polarization",
+      "target": "paper_b_conflict_2_valley_polarization",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A suggests that spin-dependent interlayer tunneling in MoSe2/CrBr3 does not result in valley polarization, while Paper B implies that similar processes in MoSe2/CrSBr do affect valley polarization, especially under a magnetic field.",
+      "type_reasoning": "The conflict arises from the empirical findings where Paper A finds that the spin-polarized tunneling quickly leads to valley depolarization, whereas Paper B shows magnetic field influence on sustained valley polarization, indicating differing observations in comparable scenarios.",
+      "interrogations": [
+        {
+          "tool": "STEELMAN",
+          "concept": "Valley polarization",
+          "steelmaned_paper": "paper_b",
+          "response": {
+            "Argument": "Paper B presents comprehensive evidence that spin-dependent charge transfer in the MoSe2/CrSBr heterostructure significantly influences valley polarization, particularly under a magnetic field, as demonstrated by the opposite polarity of the valley polarization in X* and trion peaks, which aligns with the magnetic order of CrSBr. This correlation is further substantiated by density functional theory calculations, illustrating a type-II band alignment and spin-polarized band structures, thereby supporting the crucial role of spin-polarized charge transfer in modifying valley properties. Additionally, the study clarifies that the applied magnetic field induces clear polarization and energy splitting in both the trion and X* peaks, further confirming the breaking of valley degeneracy and time-reversal symmetry only in the presence of a perpendicular magnetic field."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(g) Schematic illustration of absorption, emission, and spin-dependent charge transfer processes in the heterostructure. field. Valley polarization can be quantified by calculat- ing the degree of circular polarization (DOCP), as DOCP = (I\u03c3+\u2212I )/(I\u03c3+ +I ), whereI\u03c3+(I ) represents the PL intensity with \u03c3+( ) polarization. The PL spectra at each magnetic field were fitted with two Gaussian func- tions to extract the DOCP of the trion and X\u2217(see Sup- plemental Material Fig. S5). As depicted in Fig. 3(c), both peaks exhibit a linear but opposite correlation of DOCP with the magnetic field, saturating around \u00b12.2 T. Reflective magnetic circular dichroism (RMCD) spec- troscopy (Fig. 3(d)) confirms that the underlying CrSBr flake undergoes a spin-canting process under a perpen- dicular magnetic field and is fully spin-polarized at the saturation field Bsat =\u00b12.2 T[24, 34].",
+              "score": 0.9370147515602381
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "This elucidates the distinct and mirrored polarization behavior between X\u2217and trion peaks. It should be noted that, as stated in previous stud- ies, an applied magnetic field can induce opposite val- ley polarization for excitons and trions in hole-doped MoSe2[8, 39]. However, in the MoSe2/CrSBr heterostruc- ture, the DOCP of trion and X\u2217both exhibit discernible saturation trends above Bsat, implying the valley po- Figure 4. Proximity-induced anisotropic PL of MoSe 2/CrSBr heterostructure. (a) Excitation polarization angle-dependent PL spectra of the heterostructure. The white dashed lines represent the corresponding angles along the a- and b-axis, respectively. (b) Extracted PL intensity of trion (orange), X\u2217(blue) and CrSBr exciton (green) as a function of excitation polarization angle. (c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis.",
+              "score": 0.9251386189028923
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "abs",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "We present a comprehensive investigation of optical properties in MoSe2/CrSBr heterostructures, unveiling the presence of localized excitons represented by a new emission feature, X \u2217. We demon- strate through temperature- and power-dependent photoluminescence spectroscopy that X \u2217origi- nates from excitons confined by intrinsic defects within the CrSBr layer. The valley polarization of X\u2217and trion peaks displays opposite polarity under a magnetic field, which closely correlates with the magnetic order of CrSBr. This is attributed to spin-dependent charge transfer mechanisms across the heterointerface, supported by density functional theory calculations revealing a type-II band alignment and spin-polarized band structures. Furthermore, the strong in-plane anisotropy of CrSBr induces unique polarization-dependent responses in MoSe 2 emissions. Our study highlights the crucial role of defects in shaping excitonic properties. It offers valuable insights into spectral- resolved proximity effects in van der Waals heterostructures between semiconductor and magnet, contributing to advancing spintronic and valleytronic devices.",
+              "score": 0.9132921234665154
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "At a zero magnetic field, the\u03c3+ and  polarized PL spectra are nearly identical, as expected due to the in-plane magnetization of CrSBr and the pre- served valley degeneracy of MoSe 2. Upon increasing the magnetic field to \u00b13 T, clear polarization and energy splitting were observed in both the trion and X \u2217peaks, indicating the breaking of valley degeneracy and time- reversal symmetry. Fig. 3(b) depicts the difference in PL intensity between \u03c3+ and polarized emission in the parameter space of the magnetic field and the emis- sion energy. Notably, the intensity contrast of the trion and X\u2217exhibits opposite dependences with the magnetic Figure 3. Charge transfer-mediated distinct valley polarization between X \u2217and trions. (a) Right and left circularly polarized PL spectra at selective magnetic fields. (b) The difference in PL intensity between \u03c3+ and polarizations in the energy and magnetic field parameter space.",
+              "score": 0.9120698229742211
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(b) The difference in PL intensity between \u03c3+ and polarizations in the energy and magnetic field parameter space. (c) DOCP as a function of magnetic field, with X\u2217(trion) peak plotted as blue (orange) circles. The dashed lines represents the saturation field of CrSBr (Bsat). (d) RMCD signal of a CrSBr flake with similar thickness as a function of magnetic field along the c-axis. (e), (f) DFT calculated band structure of the majority spin (e) and minority spin (f) of the MoSe 2/FM CrSBr heterostructure. The blue and red bands represent CrSBr and MoSe 2 orbitals, respectively. The yellow bands indicate the orbitals where the two materials hybridize. (g) Schematic illustration of absorption, emission, and spin-dependent charge transfer processes in the heterostructure. field.",
+              "score": 0.90357341307483
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis. larization is primarily influenced by the charge transfer processes driven by spin-polarized carriers. Neverthe- less, owing to the in-plane easy-axis magnetization of the CrSBr layer, we observe negligible proximity-induced val- ley splitting, except for minor variations in the g-factor of trions around Bsat (see Supplemental Material Fig. S9). This suggests a modest exchange splitting induced by the out-of-plane magnetization component of CrSBr. Simi- lar results are also observed in device 1 (see Supplemental Material Fig. S10). Inspired by the strong in-plane anisotropy of CrSBr, we further investigate the linear polarization properties of the MoSe 2/CrSBr heterostructure. Fig. 4(a) presents the PL spectra of device 1 at varying excitation polariza- tion angles.",
+              "score": 0.9034588404284469
+            }
+          ],
+          "timestamp": "2026-06-05T22:41:10.458846"
+        },
+        {
+          "tool": "ANSWER_FOR",
+          "concept": "Valley polarization",
+          "responding paper": "paper_b",
+          "questioned paper": "paper_a",
+          "response": {
+            "Answer": "Paper B challenges Paper A's claim by demonstrating that the valley polarization behavior in the MoSe2/CrSBr heterostructure is significantly influenced by spin-dependent charge transfer and the magnetic order of CrSBr, as supported by RMCD spectroscopy and density functional theory calculations. This spin-polarized charge transfer is shown to induce opposite valley polarization for excitons and trions, saturating at high magnetic fields, contradicting Paper A's assertion of uniformly quenched photoluminescence. Furthermore, the role of intrinsic defects as identified through power- and temperature-dependent PL measurements further suggests localized excitonic effects that Paper A did not address."
+          },
+          "Claim of the Questioned": "Paper A's position is correct as it provides empirical evidence that any initial valley polarization from spin-dependent interlayer tunneling in MoSe2/CrBr3 is rapidly erased due to efficient valley depolarization in MoSe2, driven by L-T exciton splitting and disorder scattering outside the light cone. The study attributes the observed degree of circular polarization (DOCP) to spin-dependent electron transfer, rather than a static hole valley polarization, which supports the assertion that resonant interlayer band alignment and hybridization result in uniformly quenched photoluminescence across both circular polarizations. Moreover, the data show that measured DOCP is sensitive only to spin/valley dynamics near zero exciton center-of-mass momentum, further challenging claims of persistent valley polarization from interlayer tunneling in the MoSe2/CrBr3 heterostructure.",
+          "sources": [
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "This elucidates the distinct and mirrored polarization behavior between X\u2217and trion peaks. It should be noted that, as stated in previous stud- ies, an applied magnetic field can induce opposite val- ley polarization for excitons and trions in hole-doped MoSe2[8, 39]. However, in the MoSe2/CrSBr heterostruc- ture, the DOCP of trion and X\u2217both exhibit discernible saturation trends above Bsat, implying the valley po- Figure 4. Proximity-induced anisotropic PL of MoSe 2/CrSBr heterostructure. (a) Excitation polarization angle-dependent PL spectra of the heterostructure. The white dashed lines represent the corresponding angles along the a- and b-axis, respectively. (b) Extracted PL intensity of trion (orange), X\u2217(blue) and CrSBr exciton (green) as a function of excitation polarization angle. (c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis.",
+              "score": 0.9220335753020081
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "abs",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "We present a comprehensive investigation of optical properties in MoSe2/CrSBr heterostructures, unveiling the presence of localized excitons represented by a new emission feature, X \u2217. We demon- strate through temperature- and power-dependent photoluminescence spectroscopy that X \u2217origi- nates from excitons confined by intrinsic defects within the CrSBr layer. The valley polarization of X\u2217and trion peaks displays opposite polarity under a magnetic field, which closely correlates with the magnetic order of CrSBr. This is attributed to spin-dependent charge transfer mechanisms across the heterointerface, supported by density functional theory calculations revealing a type-II band alignment and spin-polarized band structures. Furthermore, the strong in-plane anisotropy of CrSBr induces unique polarization-dependent responses in MoSe 2 emissions. Our study highlights the crucial role of defects in shaping excitonic properties. It offers valuable insights into spectral- resolved proximity effects in van der Waals heterostructures between semiconductor and magnet, contributing to advancing spintronic and valleytronic devices.",
+              "score": 0.9104881001840547
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(g) Schematic illustration of absorption, emission, and spin-dependent charge transfer processes in the heterostructure. field. Valley polarization can be quantified by calculat- ing the degree of circular polarization (DOCP), as DOCP = (I\u03c3+\u2212I )/(I\u03c3+ +I ), whereI\u03c3+(I ) represents the PL intensity with \u03c3+( ) polarization. The PL spectra at each magnetic field were fitted with two Gaussian func- tions to extract the DOCP of the trion and X\u2217(see Sup- plemental Material Fig. S5). As depicted in Fig. 3(c), both peaks exhibit a linear but opposite correlation of DOCP with the magnetic field, saturating around \u00b12.2 T. Reflective magnetic circular dichroism (RMCD) spec- troscopy (Fig. 3(d)) confirms that the underlying CrSBr flake undergoes a spin-canting process under a perpen- dicular magnetic field and is fully spin-polarized at the saturation field Bsat =\u00b12.2 T[24, 34].",
+              "score": 0.9092448528928414
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "conclusion",
+              "page_start": 6,
+              "page_end": 7,
+              "text": "In summary, our study has unveiled a distinct spectral feature, labeled as X \u2217, within the MoSe 2/CrSBr vdW heterostructures. Through a meticulous analysis encom- passing power- and temperature-dependent PL measure- ments, we ascribe the origin of X \u2217to the recombination of neutral excitons confined by the intrinsic defect po- tentials present in the underlying CrSBr layer. Given the prevalence of structural defects in 2D materials, our findings suggest that localized exciton may be a common characteristic in various TMD heterostructures. Further- more, we have identified an intriguing opposite circular- polarization behavior between X\u2217and trions, attributed to hole doping induced by charge transfer in MoSe 2. By integrating RMCD measurements, we have eluci- dated the relationship between DOCP of MoSe 2 emis- sions and the magnetic order of CrSBr, stemming from spin-dependent charge transfer across the heterointer- face.",
+              "score": 0.9061918156093693
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis. larization is primarily influenced by the charge transfer processes driven by spin-polarized carriers. Neverthe- less, owing to the in-plane easy-axis magnetization of the CrSBr layer, we observe negligible proximity-induced val- ley splitting, except for minor variations in the g-factor of trions around Bsat (see Supplemental Material Fig. S9). This suggests a modest exchange splitting induced by the out-of-plane magnetization component of CrSBr. Simi- lar results are also observed in device 1 (see Supplemental Material Fig. S10). Inspired by the strong in-plane anisotropy of CrSBr, we further investigate the linear polarization properties of the MoSe 2/CrSBr heterostructure. Fig. 4(a) presents the PL spectra of device 1 at varying excitation polariza- tion angles.",
+              "score": 0.9004474285294016
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "It is evident that the minority spin band of CrSBr exhibits a larger absorp- tion band gap, exceeding the excitation energy of 1.96 eV (also see Supplemental Material Fig. S8). Consequently, as shown in Fig. 3(g), under a positive magnetic field, more spin-up electrons are optically excited to the major- ity spin conduction band. The accumulation of electrons in the majority spin conduction band will impede the transfer of electrons from the MoSe 2 K+ valley, while the unoccupied states in the minority spin conduction band facilitate the transfer of spin-down electrons from the MoSe2 K- valley, leading to a reduction in polar- ized X\u2217emission. Meanwhile, the photo-generated holes in the majority spin valence bands promote hole trans- fer to the K+ valley. Due to the inter-valley nature of MoSe2 trions[39], the increase in holes within the K+ valley leads to a corresponding increase in polarized trion emission.",
+              "score": 0.8934628349821321
+            }
+          ],
+          "timestamp": "2026-06-05T22:42:40.544638"
+        },
+        {
+          "tool": "CHALLENGE",
+          "concept": "Valley polarization",
+          "challenged_paper": "paper_b",
+          "response": {
+            "passage_verdicts": [
+              {
+                "text_snippet": "We demonstrate through temperature- and power-dependent photoluminescence spectroscopy that X\u2217 originates from excitons confined by intrinsic defects within the CrSBr layer. The valley polarization of X\u2217 and trion peaks displays opposite polarity under a magnetic field, which closely correlates with the magnetic order of CrSBr.",
+                "verdict": "supports",
+                "reasoning": "This passage confirms the presence of valley polarization related to a magnetic field and magnetic order of CrSBr, aligning with the claim about polarization and valley degeneracy breaking."
+              },
+              {
+                "text_snippet": "Upon increasing the magnetic field to \u00b13 T, clear polarization and energy splitting were observed in both the trion and X\u2217 peaks, indicating the breaking of valley degeneracy and time-reversal symmetry.",
+                "verdict": "supports",
+                "reasoning": "The observed polarization and energy splitting under magnetic fields supports the claim by clearly showing a break in valley degeneracy and time-reversal symmetry."
+              },
+              {
+                "text_snippet": "This suggests a modest exchange splitting induced by the out-of-plane magnetization component of CrSBr.",
+                "verdict": "neutral",
+                "reasoning": "This statement suggests minimal interaction effects, but doesn't directly address the overall context of the mechanism described in the claim."
+              },
+              {
+                "text_snippet": "Reflective magnetic circular dichroism spectroscopy confirms that the underlying CrSBr flake undergoes a spin-canting process under a perpendicular magnetic field and is fully spin-polarized at the saturation field Bsat =\u00b12.2 T.",
+                "verdict": "supports",
+                "reasoning": "This observation of spin-canting and spin-polarization at saturation fields is in agreement with the claim on the spin-dependent charge transfer mechanism and confirms aspects of the underlying magnetic processes."
+              }
+            ],
+            "overall_verdict": "holds",
+            "overall_reasoning": "The passages from Paper B provide evidence supporting the claim about the photoluminescence properties and underlying mechanisms related to valley polarization and time-reversal symmetry breaking in MoSe2/CrSBr heterostructures. The documentation of polarization, energy splitting in photoluminescence peaks, and the influence of CrSBr's anisotropic magnetization offers a coherent alignment with the claim regarding the role of spin-canting and polarization, thus strengthening the scientific assertions made in the original claim."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_b",
+              "section": "abs",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "We present a comprehensive investigation of optical properties in MoSe2/CrSBr heterostructures, unveiling the presence of localized excitons represented by a new emission feature, X \u2217. We demon- strate through temperature- and power-dependent photoluminescence spectroscopy that X \u2217origi- nates from excitons confined by intrinsic defects within the CrSBr layer. The valley polarization of X\u2217and trion peaks displays opposite polarity under a magnetic field, which closely correlates with the magnetic order of CrSBr. This is attributed to spin-dependent charge transfer mechanisms across the heterointerface, supported by density functional theory calculations revealing a type-II band alignment and spin-polarized band structures. Furthermore, the strong in-plane anisotropy of CrSBr induces unique polarization-dependent responses in MoSe 2 emissions. Our study highlights the crucial role of defects in shaping excitonic properties. It offers valuable insights into spectral- resolved proximity effects in van der Waals heterostructures between semiconductor and magnet, contributing to advancing spintronic and valleytronic devices.",
+              "score": 0.9340367086302146
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "This elucidates the distinct and mirrored polarization behavior between X\u2217and trion peaks. It should be noted that, as stated in previous stud- ies, an applied magnetic field can induce opposite val- ley polarization for excitons and trions in hole-doped MoSe2[8, 39]. However, in the MoSe2/CrSBr heterostruc- ture, the DOCP of trion and X\u2217both exhibit discernible saturation trends above Bsat, implying the valley po- Figure 4. Proximity-induced anisotropic PL of MoSe 2/CrSBr heterostructure. (a) Excitation polarization angle-dependent PL spectra of the heterostructure. The white dashed lines represent the corresponding angles along the a- and b-axis, respectively. (b) Extracted PL intensity of trion (orange), X\u2217(blue) and CrSBr exciton (green) as a function of excitation polarization angle. (c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis.",
+              "score": 0.9272603841827295
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "At a zero magnetic field, the\u03c3+ and  polarized PL spectra are nearly identical, as expected due to the in-plane magnetization of CrSBr and the pre- served valley degeneracy of MoSe 2. Upon increasing the magnetic field to \u00b13 T, clear polarization and energy splitting were observed in both the trion and X \u2217peaks, indicating the breaking of valley degeneracy and time- reversal symmetry. Fig. 3(b) depicts the difference in PL intensity between \u03c3+ and polarized emission in the parameter space of the magnetic field and the emis- sion energy. Notably, the intensity contrast of the trion and X\u2217exhibits opposite dependences with the magnetic Figure 3. Charge transfer-mediated distinct valley polarization between X \u2217and trions. (a) Right and left circularly polarized PL spectra at selective magnetic fields. (b) The difference in PL intensity between \u03c3+ and polarizations in the energy and magnetic field parameter space.",
+              "score": 0.9237639000344816
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(c) Polarization-resolved PL intensity of X\u2217and CrSBr exciton with excitation along the a-axis. larization is primarily influenced by the charge transfer processes driven by spin-polarized carriers. Neverthe- less, owing to the in-plane easy-axis magnetization of the CrSBr layer, we observe negligible proximity-induced val- ley splitting, except for minor variations in the g-factor of trions around Bsat (see Supplemental Material Fig. S9). This suggests a modest exchange splitting induced by the out-of-plane magnetization component of CrSBr. Simi- lar results are also observed in device 1 (see Supplemental Material Fig. S10). Inspired by the strong in-plane anisotropy of CrSBr, we further investigate the linear polarization properties of the MoSe 2/CrSBr heterostructure. Fig. 4(a) presents the PL spectra of device 1 at varying excitation polariza- tion angles.",
+              "score": 0.916829000482404
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "(g) Schematic illustration of absorption, emission, and spin-dependent charge transfer processes in the heterostructure. field. Valley polarization can be quantified by calculat- ing the degree of circular polarization (DOCP), as DOCP = (I\u03c3+\u2212I )/(I\u03c3+ +I ), whereI\u03c3+(I ) represents the PL intensity with \u03c3+( ) polarization. The PL spectra at each magnetic field were fitted with two Gaussian func- tions to extract the DOCP of the trion and X\u2217(see Sup- plemental Material Fig. S5). As depicted in Fig. 3(c), both peaks exhibit a linear but opposite correlation of DOCP with the magnetic field, saturating around \u00b12.2 T. Reflective magnetic circular dichroism (RMCD) spec- troscopy (Fig. 3(d)) confirms that the underlying CrSBr flake undergoes a spin-canting process under a perpen- dicular magnetic field and is fully spin-polarized at the saturation field Bsat =\u00b12.2 T[24, 34].",
+              "score": 0.9155729208640359
+            },
+            {
+              "paper_id": "paper_b",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 6,
+              "text": "Fig. 4(a) presents the PL spectra of device 1 at varying excitation polariza- tion angles. In stark contrast to the isotropic PL behavior of monolayer MoSe2, the X\u2217and trion peaks exhibit syn- chronized and prominent anisotropic responses with the emissions of CrSBr (Fig. 4(b)). The highly anisotropic electronic structure of CrSBr results in a strong pref- erence for absorption for light polarized along the b- axis[24, 28]. Consequently, when excited with light po- larized along the b-axis, carrier accumulation in CrSBr hinders the electron transfer from MoSe 2 towards it (see Supplemental Material Fig. S11). As discussed ear- lier, the MoSe 2/CrSBr heterostructure manifests a type- II band alignment, where the reduction in charge trans- fer leads to an increase in the intensity of MoSe 2 X\u2217and trion peaks under b-polarized excitation.",
+              "score": 0.9133790470838495
+            }
+          ],
+          "timestamp": "2026-06-05T22:43:10.942140"
+        },
+        {
+          "tool": "STEELMAN",
+          "concept": "Valley polarization",
+          "steelmaned_paper": "paper_a",
+          "response": {
+            "Argument": "Paper A's position that spin-dependent interlayer tunneling in MoSe2/CrBr3 does not result in valley polarization is supported by the rapid valley depolarization observed, which occurs in less than 0.1 ps, efficiently erasing any potential valley polarization. The study attributes the lack of sustained valley polarization to a combination of strong interlayer band alignment and the efficient spin-polarized tunneling from MoSe2 to CrBr3, which uniformly quenches both the \u03c3+ and PL spectra, ensuring no signatures of valley polarization persist in the PL signal. Additionally, the observed Degree of Circular Polarization (DOCP) is attributed to spin-dependent interlayer electron transfer close to the light cone, where excitons have low momentum, rather than a static hole valley polarization, highlighting the rapid dynamics involved in precluding valley polarization."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 2,
+              "page_end": 7,
+              "text": "We note that our PL signal is comparably quenched in both\u03c3+ and polarizations, yet shows a 10 % DOCP in the trion state. We attribute this to a complex interplay between exciton valley dynamics and spin-dependent in- terlayer charge transfer in our sample. In MoSe 2, the ex- citon dispersion experiences an energy splitting between excitons with dipole moment parallel (longitudinal, L) or perpendicular (transverse, T) to their in-plane wavevec- tor, k, arising from the long range electron-hole exchange interaction [50, 51]. This L-T splitting is linearly pro- portional to k outside the light cone, and manifests as an e\ufb00ective magnetic \ufb01eld acting on the exciton valley pseudospin, causing precession and associated valley de- polarization, aided by disorder scattering [50\u201352]. Conse- quently, valley depolarization is extremely e\ufb03cient (< 0.1 ps [53]) for high-k excitons, and suppressed for low-k ex- citons (Fig.",
+              "score": 0.9352758612911547
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 2,
+              "page_end": 7,
+              "text": "However, in this case, a hole valley polarization may be ruled out as the origin of the observed trion DOCP for three reasons. Firstly, any im- balance between the itinerant carrier populations of the a MoSe2 CrBr3 PUMP Valence Conduction Bands Bands PL Minority-spin t2g orbitals Majority-spin eg orbitals Slower tunnelling Resonant Resident hole population tunnelling Light cone Exciton dispersion Rapid valley decay Weak valley decay Splitting \u221dk Relaxation <ps emission / trion formation FIG. 3. Spin-dependent interlayer tunnelling. (a) Schematic of spin-dependent interlayer charge transfer over the MoSe2 / CrBr 3 interface. The type-II band alignment precludes a static electron doping in MoSe 2, and so we infer a resident hole population. In CrBr 3, the CB is strongly split into oppositely spin polarized bands. Only the minority-spin bands are resonant with the MoSe 2 CB.",
+              "score": 0.9317464070927685
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 2,
+              "page_end": 7,
+              "text": "The orbitals constituting the MoSe 2 CB edges do protrude more out of the Molybdenum plane, and so do experi- ence a modest spin splitting due to proximity, which we measure to be < 0.5 meV (Supplementary Notes 1 and 6). Regardless, this splitting is in the CB and so cannot generate a static hole valley polarization in the VB. Therefore, rather than a static hole valley polariza- tion, we attribute the observed DOCP to spin-dependent interlayer electron transfer, which translates to valley- dependent charge leakage from MoSe2 owing to the spin- valley locking e\ufb00ect. Similar results have previously been observed in conventional ferromagnet-quantum well sys- tems [49]. The particular interlayer band alignment in this structure results in the MoSe 2 CB being resonant only with the minority-spin ( t2g) bands of CrBr 3, while the majority-spin ( eg) bands are non-resonant by sev- eral hundred meV (Fig. 1e).",
+              "score": 0.9242613773986385
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 2,
+              "page_end": 7,
+              "text": "3b). As such, any valley polarization from interlayer tunnelling at higher energies (closer to the laser at 1.946 eV) is quickly erased, and the tunnelling serves only to uniformly quench both the \u03c3+ and PL spec- tra. We expect the tunnelling to be very e\ufb03cient at these higher energies owing to resonant interlayer band align- ment and regions of hybridization evident in Fig. 1e be- tween the MoSe2 CB and CrBr3 t2g states. This e\ufb03cient hot electron tunnelling will indeed be highly spin polar- ized, but the comparably fast valley depolarization in MoSe2 ensures that no signatures persist in the observed DOCP. We therefore believe that the measured DOCP is sen- sitive only to spin/valley dynamics in the energy range corresponding to vanishing exciton centre-of-mass mo- mentum, close to or inside the light cone.",
+              "score": 0.9235888843870184
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 2,
+              "text": "Where changes in the circular polarization degree of PL are re- ported, signi\ufb01cantly broadened linewidths preclude the extraction of useful spectral information, and individual excitonic states cannot be resolved [30]. In this work, we study a van der Waals interface formed between the TMD molybdenum diselenide (MoSe 2) and ferromagnetic CrBr 3. While the interlayer band align- ment is nominally type-II, with the global conduction band minimum found in CrBr 3, a strong spin polariza- tion of the CrBr 3 conduction bands gives rise to spin- dependent interlayer charge transfer rates for electrons tunnelling from MoSe 2 to CrBr 3. This spin-dependent non-radiative decay channel causes a valley-dependent quenching of MoSe 2 photoluminescence intensity, lead- arXiv:2004.04073v2 [cond-mat.mes-hall] 21 Oct 2020 FIG. 1.",
+              "score": 0.9161619959721832
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 2,
+              "page_end": 7,
+              "text": "2. Magneto-photoluminescence of MoSe 2 / CrBr 3 heterostructures. (a) Photoluminescence (PL) intensity in \u03c3+ circular polarization as a function of photon energy and external B-\ufb01eld, in the forwards sweep direction. The neutral exciton (X) and trion (T) are labelled. (b) Schematics of the electron-hole valley con\ufb01gurations of the two ground state optically bright neutral excitons and positive trions in monolayer MoSe 2, which emit either a \u03c3+ or polarized photon upon recombination. The pink (green) electron is spin \u2191(\u2193), and the hole is white, regardless of spin. Spin-valley locking ties the electron spin to the emission polarization. (c) Integrated trion PL intensity in both circular polarizations, for the forward (upper panel) and backward (lower panel) B-\ufb01eld sweep directions. (d) Degree of circular polarization (DOCP) as a function of photon energy and B-\ufb01eld, in the forwards sweep direction.",
+              "score": 0.9154689757310097
+            }
+          ],
+          "timestamp": "2026-06-05T23:35:32.123674"
+        }
+      ],
+      "created_at": "2026-06-05T22:40:16.923000"
+    }
+  ]
+}

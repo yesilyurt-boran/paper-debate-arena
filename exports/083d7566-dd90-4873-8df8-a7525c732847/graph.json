@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-01T23:40:59.537293",
+  "papers": {
+    "paper_a": "paper_a",
+    "paper_b": "paper_b"
+  },
+  "nodes": [
+    {
+      "id": "paper_a",
+      "type": "paper"
+    },
+    {
+      "id": "paper_b",
+      "type": "paper"
+    },
+    {
+      "id": "paper_a_conflict_2_dynamical_dark_energy",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "Dynamical Dark Energy",
+      "text": [
+        "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets.",
+        "Interestingly, when considering DDE, none of the individual datasets\u2014including CMB, DESI DR2, Pantheon+, Union3, and DESY5\u2014can inde- pendently detect cosmic acceleration at a significant level. Our findings not only clarify the current understanding of the nature of dark energy but also challenge the established discovery of cosmic acceleration and the long-held notion that dark energy exerts negative pressure. Both individual and combined datasets suggest that the ultimate fate of the universe is likely to be dominated by matter rather than dark energy.",
+        "Based on this concern, one has to seriously question: whether does DESI truly see DDE? Our results show that it is too early to claim the existence of DDE using the combinations of CMB, DESI DR2 and SN data, but independent datasets still give strong statistical preferences of DDE over \u039bCDM. Future high precision observations can help clarify the status of DE. BASICS In the theory of general relativity [32], considering a homogeneous and isotropic universe, the Friedmann equations read asH 2 = (8\u03c0G\u03c1)/3 and \u00a8a/a=\u22124\u03c0G(\u03c1+ 3p)/3, whereais the scale factor,His the cosmic expan- sion rate and\u03c1andpare the mean energy density and pressure of different species including radiation, baryons, dark matter and DE."
+      ],
+      "sections": [
+        "abs",
+        "abs",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_2_dynamical_dark_energy",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "Dynamical Dark Energy",
+      "text": [
+        "This trend is reinforced by the Union3 compilation [20], which reports a mild 1.7\u20132.6\u03c3 tension with /Lambda1CDM, favoring models where \u03c9 0 > \u22121 and \u03c9a < 0. Collectively, these observations point toward a potentially evolving dark energy component, with an equa- tion of state that increases over time and a present value In 2024, building on hints of the evolving nature of dark energy from the Pantheon + and Union3 compilations, DES- SN5YR found that whether using supernova data alone or in joint \ufb01ts with the CMB, BAO, and three two point (3 \u00d72pt) measurements which refer to the joint analysis of three two- point correlation functions: galaxy clustering, galaxy\u2013galaxy lensing, and cosmic shear, the best \ufb01t equation of state (EoS w is consistently slightly greater than \u22121 at more than the 1\u03c3 level. This behavior agrees with results from Union3 and supports a trend toward mildly dynamical dark energy.",
+        "Recently, the DES Collaboration reported improved cosmo- logical constraints from a re-analysis of the DES-SN5YR catalog, showing that the preference for dynamical dark energy is reduced to a statistical signi\ufb01cance of 3 .2\u03c3, com- pared to the earlier 4 .2\u03c3 result obtained with DES-SN5YR [21]. Yet several studies have also shown that, in the DES- SN5YR dataset, the evidence for dynamical dark energy is biased by low-redshift SNe Ia [ 22\u201325]. Compared to DR1, DR2 offers tighter constraints with improved precision and reduced uncertainties. Following the DR2 BAO release, [8,9] performed an extended analysis of dark energy dynamics and con\ufb01rmed evidence of a time-varying EoS. Evidence for a time-evolving dark energy model with a statistical signi\ufb01- cance exceeding 5\u03c3 has also been reported [26].",
+        "Dark energy (DE) has been postulated to account for the observed accelerated expansion of the Universe [ 1,2]. The advent of a new era of precision cosmology has been made possible by recent developments in large-scale structure sur- veys, which have allowed for rigorous testing of the conven- tional positive cosmological constant with cold dark matter, i.e., /Lambda1CDM paradigm [ 3]. Among these, the Dark Energy Spectroscopic Instrument (DESI) is notable for its use of Baryon acoustic oscillations (BAO) observations to track cosmic expansion [4\u20139]. By analyzing standard cosmologi- cal rulers such as BAO, it is possible to place constraints on whether DE operates as a cosmological constant or exhibits time-dependent dynamical behavior [10\u201315]. Planck\u2019s \ufb01rst-year data release in 2013 [ 16] indicated \u22120.14, slightly favoring the phantom regime."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_a_conflict_4_cosmic_microwave_background",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "Cosmic Microwave Background",
+      "text": [
+        "SOLUTION Due to the unprecedented precision and increasing number of data points, we should be cautious when studying possible new physics using the data combina- tions, which may bias the results away from the truth. Although there are discrepancies among CMB, BAO and SN data, an undeniable fact is that they all prefer the region of\u03c9 0 >\u22121 and\u03c9 a <0. Especially, DESI DR2, giving a strong enough anti-correlation of (\u03c90, \u03c9 a), shows a\u223c2\u03c3preference with a relatively high preci- sion. Concerning this, we implement a statistical com- parison between CPL and \u039bCDM. For CMB, we use the Bayesian evidence (see [48] for definitions) and find that the Bayesian factor lnB ij = 6.34>5, indicating a strong evidence of CPL from CMB.",
+        "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets.",
+        "The fact that three SN datasets allow \u2126 m >0.5 in CPL means that the late universe could be matter domi- nated not DE dominated. At least, CMB, DESI DR2 and SN all independently allow a large \u2126 m \u223c0.5. Interest- ingly, CMB, DESI DR2, Union3 and DESY5 do not rule out\u03c9 0 >0 and\u03c9 0 >1/[3(\u2126 m \u22121)] [50]. Only Pantheon+ finds a beyond 1\u03c3hint of late-time cosmic acceleration. One has to question whether the universe is accelerat- ing now. CMB, DESI DR2, Union3 and DESY5 give, respectively,\u03c9 0 = 2.4\u00b11.9,\u22120.17\u00b10.44,\u22120.45 +0.28 and\u22120.35 +0.30 \u22120.41, allowing that current universe could be slowing down or moving at a constant speed."
+      ],
+      "sections": [
+        "body",
+        "abs",
+        "body"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_4_cosmic_microwave_background",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "Cosmic Microwave Background",
+      "text": [
+        "Our paper is organized as follows. In Sect. 2, we introduce the cosmological background equa- tions and models. Section3 details the core of this work with datasets and methodology using the Markov Chain Monte Carlo (MCMC) sampling against the publicly available DESI DR2 data, while Sect. 4 is dedicated to the discussion of results. In Sect. 5, we draw the conclusions. 2 Background equations and dark energy models Assuming a spatially \ufb02at Friedmann-Lema\u00eetre-Robertson- Walker (FLRW) cosmological background ds 2 =\u2212 dt 2 + a2(t)[dr 2 + r2(d\u03b82 + sin2 \u03b8d\u03c62)], (1) where a(t) is the time-dependent cosmological scale factor and (r,\u03b8,\u03c6) are the standard spherical coordinates, and con- sidering the late-time Universe \u2013 speci\ufb01cally, where radiation can be neglected \u2013 the \ufb01rst Friedmann equation arising from Eur. Phys.",
+        "As a result, the apparent anomaly in /Omega1 m may re\ufb02ect statistical artifacts rather than genuine physical constraints. Motivated by this, we go beyond the DESI BAO-only analysis in the following sections by incor- porating different Type Ia supernova samples and a CMB compressed likelihood. 4.2 Evidence for evolving dark energy using DESI DR2 BAO with other datasets In the previous section, we constrained each DE model using only the DESI DR2 dataset. We found that, across all models, the posterior distributions in the w 0\u2013wa plane indicate that wa remains poorly constrained when relying solely on DESI DR2 data. To improve these constraints and break param- eter degeneracies, we now incorporate additional datasets, combining DESI DR2 with various Type Ia supernova com- pilations and CMB measurements. Table 4 presents the numerical values obtained for each cosmological model using MCMC analysis.",
+        "This trend is reinforced by the Union3 compilation [20], which reports a mild 1.7\u20132.6\u03c3 tension with /Lambda1CDM, favoring models where \u03c9 0 > \u22121 and \u03c9a < 0. Collectively, these observations point toward a potentially evolving dark energy component, with an equa- tion of state that increases over time and a present value In 2024, building on hints of the evolving nature of dark energy from the Pantheon + and Union3 compilations, DES- SN5YR found that whether using supernova data alone or in joint \ufb01ts with the CMB, BAO, and three two point (3 \u00d72pt) measurements which refer to the joint analysis of three two- point correlation functions: galaxy clustering, galaxy\u2013galaxy lensing, and cosmic shear, the best \ufb01t equation of state (EoS w is consistently slightly greater than \u22121 at more than the 1\u03c3 level. This behavior agrees with results from Union3 and supports a trend toward mildly dynamical dark energy."
+      ],
+      "sections": [
+        "body",
+        "conclusion",
+        "body"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_2_dynamical_dark_energy",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_4_cosmic_microwave_background",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_2_dynamical_dark_energy",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_4_cosmic_microwave_background",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a_conflict_2_dynamical_dark_energy",
+      "target": "paper_b_conflict_2_dynamical_dark_energy",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A challenges the robustness of DESI's claim of dynamical dark energy due to dataset tensions, while Paper B presents evidence supporting mildly dynamical dark energy based on similar datasets.",
+      "type_reasoning": "The conflict is empirical because it arises from differing interpretations and conclusions drawn from observational data and statistical analyses of dark energy evolution.",
+      "interrogations": [
+        {
+          "tool": "STEELMAN",
+          "concept": "Dynamical Dark Energy",
+          "steelmaned_paper": "paper_a",
+          "response": {
+            "Argument": "Paper A convincingly argues that the DESI collaboration's claim of dynamical dark energy is not robust due to significant tensions between the CMB, BAO, and SN datasets when combined, leading to inconsistent constraints on dark energy. By advocating for analysis of each dataset independently, the paper demonstrates a statistical preference for dynamical dark energy over the \u039bCDM model while highlighting that no single dataset can independently detect cosmic acceleration with significance, thus underscoring the fragility of the current evidence for dynamical dark energy. Moreover, paper_a suggests that combined datasets might misleadingly mimic the findings due to incidental alignments, rather than providing a true representation of cosmic dynamics."
+          },
+          "sources": [
+            {
+              "paper_id": "paper_a",
+              "section": "abs",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "A fundamental question in cosmology is whether dark energy evolves over time, a topic that has gained prominence since the discovery of cosmic acceleration. Recently, the DESI collaboration has reported increasing evidence for evolving dark energy using combinations of cosmic microwave back- ground (CMB), type Ia supernova (SN), and their new measurements of baryon acoustic oscillations (BAO). However, our analysis reveals that these combinations are problematic due to clear tensions among the CMB, BAO and SN datasets. Consequently, DESI\u2019s claim of dynamical dark energy (DDE) is not robust. A more reliable approach involves constraining the evolution of dark energy using each dataset independently. Through a statistical comparison for each dataset, on average, we find that DDE is strongly preferred over the \u039bCDM model. This suggests that DDE likely exists, although its real parameter space remains elusive due to weak constraints on the dark energy equa- tion of state and inconsistencies among the datasets.",
+              "score": 0.94515124645215
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "abs",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "Interestingly, when considering DDE, none of the individual datasets\u2014including CMB, DESI DR2, Pantheon+, Union3, and DESY5\u2014can inde- pendently detect cosmic acceleration at a significant level. Our findings not only clarify the current understanding of the nature of dark energy but also challenge the established discovery of cosmic acceleration and the long-held notion that dark energy exerts negative pressure. Both individual and combined datasets suggest that the ultimate fate of the universe is likely to be dominated by matter rather than dark energy.",
+              "score": 0.9049014522171661
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "BAO are very clean probes to explore the evolu- tion of the universe over time, which is unaffected by the nonlinear physics on small scales and relatively robust to systematic uncertainties compared to other cosmological probes. Recently, the DESI collaboration give the substantial evidence of DDE [29], based on their measurements of BAO in galaxy, quasar and Lyman-\u03b1forest tracers from the first data release (DR1) of the Dark Energy Spec- troscopic Instrument (DESI) [16, 17]. Interestingly, this DDE evidence is enhanced [30, 31] by the DESI\u2019s sec- ond data release (DR2) including more than 14 million galaxies and quasars, based on three years of operation In theory, DDE predicts: (i) the equation of state (EoS) and energy densities of dark energy (DE) evolves over time; (ii) different expansion history of the universe from \u039bCDM; (iii) the rate at which cosmic structures like galaxies and clusters form can be changed; (iv) the fate of the universe can be significantly affected.",
+              "score": 0.8937019175102036
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "body",
+              "page_start": 1,
+              "page_end": 4,
+              "text": "Based on this concern, one has to seriously question: whether does DESI truly see DDE? Our results show that it is too early to claim the existence of DDE using the combinations of CMB, DESI DR2 and SN data, but independent datasets still give strong statistical preferences of DDE over \u039bCDM. Future high precision observations can help clarify the status of DE. BASICS In the theory of general relativity [32], considering a homogeneous and isotropic universe, the Friedmann equations read asH 2 = (8\u03c0G\u03c1)/3 and \u00a8a/a=\u22124\u03c0G(\u03c1+ 3p)/3, whereais the scale factor,His the cosmic expan- sion rate and\u03c1andpare the mean energy density and pressure of different species including radiation, baryons, dark matter and DE.",
+              "score": 0.8883635787470904
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "conclusion",
+              "page_start": 4,
+              "page_end": 4,
+              "text": "The DESI DR2 data, when combined with CMB and SN data, appears to provide increasing evidence for Dynamical Dark Energy (DDE). However, our analysis demonstrates that this conclusion is not robust. By con- straining the CPL model with independent observations and various data combinations, we identify significant tensions between different datasets. These tensions lead to problematic constraints when incompatible datasets are combined. Although the combined constraints yield \u2126 m andH 0 values close to those from the CMB-only constraint on \u039bCDM, we believe this to be coincidental. In the CPL model, the effect of the cosmological constant in \u039bCDM is partially replaced by a larger matter fraction and DDE. The combination of CMB, DESI DR2, and SN data results in a lowerH 0 value because DESI DR2 indicates a high \u2126 m = 0.385\u00b10.049.",
+              "score": 0.887753348227416
+            },
+            {
+              "paper_id": "paper_a",
+              "section": "info",
+              "page_start": 1,
+              "page_end": 1,
+              "text": "Did DESI DR2 truly reveal dynamical dark energy? Deng Wang \u2217 Instituto de F\u00b4 \u0131sica Corpuscular (CSIC-Universitat de Val` encia), E-46980 Paterna, Spain David Mota",
+              "score": 0.8742534576976123
+            }
+          ],
+          "timestamp": "2026-06-01T23:40:59.520243"
+        }
+      ],
+      "created_at": "2026-06-01T23:16:58.533496"
+    },
+    {
+      "source": "paper_a_conflict_4_cosmic_microwave_background",
+      "target": "paper_b_conflict_4_cosmic_microwave_background",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A suggests discrepancies and inconsistencies among CMB, BAO, and SN datasets questioning the robustness of evolving dark energy claims, whereas Paper B, while acknowledging similar tensions, supports the notion of evolving dark energy with evidence from CMB and other datasets.",
+      "type_reasoning": "The conflict arises from different interpretations of the empirical data: Paper A highlights inconsistencies and argues for non-robust claims of evolving dark energy, while Paper B acknowledges tensions but views them as supportive of mildly dynamical dark energy, reflecting a disagreement in empirical conclusions from available data.",
+      "interrogations": [],
+      "created_at": "2026-06-01T23:16:58.533496"
+    }
+  ]
+}

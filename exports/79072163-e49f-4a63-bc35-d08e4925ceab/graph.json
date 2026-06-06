@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-05T15:22:43.383962",
+  "papers": {
+    "paper_a": "paper_a",
+    "paper_b": "paper_b"
+  },
+  "nodes": [
+    {
+      "id": "paper_a",
+      "type": "paper"
+    },
+    {
+      "id": "paper_b",
+      "type": "paper"
+    },
+    {
+      "id": "paper_a_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "type": "claim",
+      "paper_id": "paper_a",
+      "concept": "Pseudomonas aeruginosa swarming behavior",
+      "text": [
+        "ABSTRACT Pseudomonas aeruginosa is among the many bacteria that swarm, where groups of cells coordinate to move over surfaces. It has been challenging to determine the behavior of single cells within these high-cell-density swarms. To track individual cells withinP. aeruginosa swarms, we imaged a \ufb02uorescently labeled subset of the larger population. Single cells at the advancing swarm edge varied in their motility dynamics as a function of time. From these data, we delineated four phases of early swarming prior to the formation of the tendril fractals characteristic of P. aeruginosa swarming by collectively considering both micro- and macroscale data. We determined that the period of greatest single-cell motility does not coin- cide with the period of greatest collective swarm expansion. We also noted that \ufb02agellar, rhamnolipid, and type IV pilus motility mutants exhibit substantially less single-cell motility than the wild type. IMPORTANCE Numerous bacteria exhibit coordinated swarming motion over sur- faces.",
+        "IMPORTANCE Numerous bacteria exhibit coordinated swarming motion over sur- faces. It is often challenging to assess the behavior of single cells within swarming communities due to the limitations of identifying, tracking, and analyzing the traits of swarming cells over time. Here, we show that the behavior of Pseu- domonas aeruginosa swarming cells can vary substantially in the earliest phases of swarming. This is important to establish that dynamic behaviors should not be assumed to be constant over long periods when predicting and simulating the ac- tions of swarming bacteria. KEYWORDS Pseudomonas aeruginosa, collective motion, mean square displacement, swarming, tracking any surface-motile bacteria, such asPseudomonas aeruginosa, Proteus mirabilis, Bacillus subtilis, Salmonella enterica, Vibrio parahaemolyticus, Escherichia coli, and Sinorhizobium meliloti, exhibit collective motion known as \u201cswarming\u201d (1\u20136).",
+        "This phenomenon has been well characterized forB. subtilis swarming, where stationary cells tend to be oriented in Citation Madukoma CS, Liang P, Dimkovikj A, Chen J, Lee SW, Chen DZ, Shrout JD. 2019. Single cells exhibit differing behavioral phases during early stages of Pseudomonas aeruginosa swarming. J Bacteriol 201:e00184-19. https:// doi.org/10.1128/JB.00184-19. Editor Yves V. Brun, Universit\u00e9 de Montr\u00e9al Copyright \u00a9 2019 American Society for Microbiology. All Rights Reserved. Address correspondence to Joshua D. Shrout, ."
+      ],
+      "sections": [
+        "abs",
+        "abs",
+        "abs"
+      ]
+    },
+    {
+      "id": "paper_b_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "type": "claim",
+      "paper_id": "paper_b",
+      "concept": "Pseudomonas aeruginosa swarming behavior",
+      "text": [
+        "The simplest pattern is a featureless swarm that expands outward equally in all directions. An example of this is an E. coli swarm, the edge of which is nearly transparent. It consists of a monolayer of bacteria, packed into a high, uniform density ( 24). In contrast, P . aeruginosa is known for its notably dendritic swarming pattern. These dendrites, or tendrils, are long, thin regions of colonization that emerge from the spot of inoculation or from other dendrites ( 25\u201327). Although there have been numerous studies that characterize the swarm morphology of P . aeruginosa strains under varied physicochemical conditions ( 25,26,28\u201333), the exact mechanism of den- dritic growth remains an open question despite several models proposed ( 25,28,29,34,35). In addition, although P .",
+        "Pseudomonas aeruginosa is a Gram-negative, rod-shaped bacterium that employs both a single \ufb02agellum and type IV pili for motility in a wide variety of environments. It is a common opportunistic pathogen. Although P . aeruginosa infection in healthy individuals is rare, it is the primary cause for pulmonary infection and early death in cystic \ufb01brosis pa- tients (1). In addition, hospitalized patients with endotracheal tubes or indwelling venous or urinary catheters are at high risk for nosocomial infection by P . aeruginosa (2) because it is able to spread over moist surfaces in a process called \u2018 \u2018swarming\u2019 \u2019. Swarming typically involves collective motion of a dense population of bacteria. It is a common mode of motility that allows bacteria to rapidly colonize a surface, leading to the formation of bio\ufb01lms ( 3).",
+        "ABSTRACT Many species of bacteria can spread over a moist surface via a particular form of collective motion known as  surface swarming . This form of motility is typically studied by inoculating bacteria on a gel formed by 0.4\u20131.5% agar, which contains essential nutrients for their growth and proliferation. Using Pseudomonas aeruginosa and its pili-less mutant, DPilA, we investigate physical factors that either facilitate or restrict the swarming motility, measured by the rate of increase in area covered by a spreading bacterial colony, i.e., a swarm. The wild-type colony spreads over the agar surface in highly branched structures. The pili-less mutant \ufb01lls up the area more fully as it spreads, but it also produces numerous and fragmented branches, or tendrils, at the swarm front."
+      ],
+      "sections": [
+        "body",
+        "body",
+        "abs"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_a",
+      "target": "paper_a_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "type": "owns"
+    },
+    {
+      "source": "paper_b",
+      "target": "paper_b_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "type": "owns"
+    },
+    {
+      "source": "paper_a_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "target": "paper_b_conflict_2_pseudomonas_aeruginosa_swarming_behavior",
+      "type": "conflict",
+      "conflict_type": "empirical",
+      "summary": "Paper A focuses on the temporal variations in single-cell motility dynamics during early Pseudomonas aeruginosa swarming, whereas Paper B discusses the overall pattern and consistency of dendritic swarming on a larger scale.",
+      "type_reasoning": "The discrepancy arises from the empirical focus of observations; Paper A emphasizes variation and detailed behavior at the single-cell level, while Paper B describes the dendritic patterns observed in swarm morphology without addressing the nuances of single-cell behavior.",
+      "interrogations": [],
+      "created_at": "2026-06-05T15:22:43.013986"
+    }
+  ]
+}

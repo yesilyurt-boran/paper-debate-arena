@@ -1,0 +1,10 @@
+fastapi
+python-dotenv
+openai
+llama-index
+faiss-cpu
+pypdf
+networkx
+pycountry
+pydantic
+uvicorn
